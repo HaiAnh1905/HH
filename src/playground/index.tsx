@@ -17,7 +17,6 @@ interface IData {
 }
 
 export default function EntertainmentPage() {
-  const a = [1, 2, 3];
   const [tabs, setTabs] = useState<Number>(1);
   const handleClick = (index: Number) => {
     setTabs(index);

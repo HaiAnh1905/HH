@@ -1,4 +1,4 @@
-import { useState } from "react";
+// import { useState } from "react";
 import FPTUbg from "../../public/FPTU_background.jpg";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay, FreeMode } from "swiper/modules";
@@ -22,14 +22,13 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "./style.scss";
 
-interface FPTUInfo {
-  name: String,
-  img: String
-}
+// interface FPTUInfo {
+//   name: String,
+//   img: String
+// }
 
 export default function FPTU() {
-  const a = [1, 2, 3, 4, 5, 6];
-  const [listInfo, setListInfo] = useState<FPTUInfo[]>([
+  const listInfo = [
     {
       name: 'Alpha',
       img: `${Alpha}`
@@ -86,7 +85,7 @@ export default function FPTU() {
       name: 'Cầu Meta',
       img: `${MetaBridge}`
     },
-  ])
+  ];
   return (
     <div className="FPTUPage relative">
       <div

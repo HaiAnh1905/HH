@@ -3,15 +3,15 @@ import Slider from "./slider/index.tsx";
 import "./style.scss";
 import { NavLink } from "react-router-dom";
 
-interface sliderArrayItem {
-  index: number;
-  title: String;
-  sentence: String;
-  img: String;
-}
+// interface sliderArrayItem {
+//   index: number;
+//   title: String;
+//   sentence: String;
+//   img: String;
+// }
 
 export default function HomePage() {
-  const [sliderImg, setSliderImg] = useState<sliderArrayItem[]>([
+  const sliderImg = [
     {
       index: 0,
       title: "Chào mừng các bạn đến với Hòa Lạc",
@@ -32,7 +32,7 @@ export default function HomePage() {
         "Cung cấp các món ăn ngon, rẻ, chất lượng, sạch sẽ,... và siêu thì có thể mua cả thế giới",
       img: "https://hoalac-school.fpt.edu.vn/wp-content/uploads/FPTSchool-0081-scaled.jpg",
     },
-  ]);
+  ]
   const [sliderIndex, setSliderIndex] = useState<number>(0);
   const handleNext = () => {
     if (sliderIndex === sliderImg.length - 1) {

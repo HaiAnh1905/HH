@@ -9,7 +9,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/thumbs";
 
-import { Autoplay, Pagination, Navigation, Thumbs } from "swiper/modules";
+import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
 import "../../popup/style.scss";
 

@@ -1,19 +1,19 @@
-import React, { useState } from "react";
+// import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Autoplay, FreeMode } from "swiper/modules";
+import { Autoplay, FreeMode } from "swiper/modules";
 
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "./style.scss";
 
-interface tuyenxeInfo {
-  name: String;
-  img: String;
-}
+// interface tuyenxeInfo {
+//   name: String;
+//   img: String;
+// }
 
 export default function BusRoutes() {
-  const [listInfo, setListInfo] = useState<tuyenxeInfo[]>([
+  const listInfo = [
     {
       name: "CHUYẾN XE",
       img: "https://scontent.fhan2-5.fna.fbcdn.net/v/t39.30808-6/319015218_3233095813609679_5832714119388566604_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGj-ZnCxbvSET7iE6_oryYQ_RKnkQvCPff9EqeRC8I993teG8GpSmI4FbR7LPBPe00SnOfR-sa_Uf46SZCBqISu&_nc_ohc=jE_QPJTO0CEQ7kNvgGwgCQe&_nc_ht=scontent.fhan2-5.fna&_nc_gid=Aa9HshFTDjHybnPoefX0UHz&oh=00_AYBw_UzSaWqjbQ2MDGoktpi3a1VQopiJCtfi4qN8roIylQ&oe=671F9D67",
@@ -30,7 +30,7 @@ export default function BusRoutes() {
       name: "VÉ XE",
       img: "https://scontent.fhan14-1.fna.fbcdn.net/v/t39.30808-6/435712902_493760803162531_2851977825187482960_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGnqL4QSS843F6tiqDgKhZwB3055Vd6EQIHfTnlV3oRAt3KxzjvvLcWDawSldKPbdK4OFJ4LEzOCufFMlbAH9gQ&_nc_ohc=Ym7zaCrvEu4Q7kNvgGZpj_6&_nc_ht=scontent.fhan14-1.fna&_nc_gid=Au7o_-W8BzD_QMKKHUhIHjM&oh=00_AYDAXxZE_3sUzzORNN16KJpHuoaExbogDxfUFQui0mt49A&oe=671FC6E1",
     },
-  ]);
+  ]
   return (
     <div className="tuyenxe relative">
       <div
