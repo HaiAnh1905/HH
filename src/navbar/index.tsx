@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import logoFPTU from "../../public/fpt-logo.png";
+// import logoFPTU from "../../public/fpt-logo.png";
 import logoGroup from "../../public/group-logo.png";
 import "./style.scss";
 

@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import { Rate } from "antd";
 import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";

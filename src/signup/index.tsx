@@ -1,8 +1,8 @@
-import React, { ReactHTML, useState } from "react";
+import{  useState } from "react";
 import fptLogo from "../../public/fpt-logo.png";
 import { NavLink } from "react-router-dom";
-import SuccessPopup from "../popupSuccess/success.tsx";
-import FailedPopup from "../popupSuccess/failed.tsx";
+// import SuccessPopup from "../popupSuccess/success.tsx";
+// import FailedPopup from "../popupSuccess/failed.tsx";
 import Swal from "sweetalert2";
 import "./style.scss";
 

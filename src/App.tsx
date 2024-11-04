@@ -1,16 +1,11 @@
-import { useState } from 'react'
 import { Route, Routes } from 'react-router-dom'
 import NavBar from './navbar'
 import './App.css'
 import HomePage from './homepage/index.tsx'
-import LoginPage from './login/index.tsx'
-import SignUpPage from './signup/index.tsx'
 import FPTU from './fptu/index.tsx'
-import Reset from './forget/reset.tsx'
 import EntertainmentPage from './playground/index.tsx'
 import BusRoutes from './tuyenxe/index.tsx'
 import FoodStore from './food/index.tsx'
-import PopupDetail from './popup/index.tsx'
 
 function App() {
 

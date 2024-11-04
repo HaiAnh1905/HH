@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Coffee from "./location/Coffee";
 import { SearchOutlined } from "@ant-design/icons";
-import useSWR from "swr";
+// import useSWR from "swr";
 import "./style.scss";
 
 interface IData {

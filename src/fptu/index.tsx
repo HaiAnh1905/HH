@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import FPTUbg from "../../public/FPTU_background.jpg";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Autoplay, FreeMode } from "swiper/modules";
+import { Navigation, Autoplay, FreeMode } from "swiper/modules";
 import Canteen2 from '../../public/Canteen 2.jpg'
 import Canteen1 from '../../public/Canteen1.jpg'
 import MetaBridge from '../../public/Cầu meta.jpg'

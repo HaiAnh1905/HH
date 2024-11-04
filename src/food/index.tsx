@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from "react";
-import { SearchOutlined } from "@ant-design/icons";
+import { useState, useEffect } from "react";
+// import { SearchOutlined } from "@ant-design/icons";
 import FoodCard from "./foodcard";
 import food1 from "../../public/food1.jpg";
 import food2 from "../../public/food2.jpg";
 import food3 from "../../public/food3.jpg";
 import "./style.scss";
-import PopupDetail from "../popup";
+// import PopupDetail from "../popup";
 
 interface IData {
   name: String;
