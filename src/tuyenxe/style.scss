@@ -1,0 +1,863 @@
+.tuyenxe {
+  background-position-y: 100%;
+    .opa {
+      // cái nền màu xanh lá cây
+      background-color: rgb(4, 101, 39);
+      width: 100%;
+      background-size: cover;
+      height: 370rem;
+    }
+
+    .anhbus {
+      //cái ảnh xe bus nhỏ nhỏ để trang trí
+      background-image: url("https://i.imgur.com/3jRABMR.png");
+      width: 19rem;
+      height: 19rem;
+      background-size: cover;
+      border-radius: 1%;
+      transform: translate(19rem, 28rem);
+    }
+
+    .nentuyenxe {
+      // cái hình nền oto
+      background-image: url("https://scontent.fhan2-5.fna.fbcdn.net/v/t39.30808-6/418563820_995163191963882_278522257063500509_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeG0-p3dpveb3lpeCiHs5vDw6kUpFFJVPFDqRSkUUlU8UPBjNx0QFzFIlLzllunLilcilkgZoG9QLifPugfNeNen&_nc_ohc=Zx-no2KOlFcQ7kNvgHz5sSN&_nc_zt=23&_nc_ht=scontent.fhan2-5.fna&_nc_gid=AzEYPLFIHUE7zLDIufpX9nZ&oh=00_AYBamdAJEtvxIUJhPbcA56scTAXk7Z_bTB6rlr2cdtnD5A&oe=6724D2B1");
+      width: 100%;
+      height: 147%;
+      opacity: 0.23;
+      background-size: cover;
+      background-position-x: 39%;
+      background-repeat: no-repeat;
+      // transform: translate(-27rem, 0rem);
+    }
+
+    .title {
+      //cái title ở bên trên
+      background-color: rgb(96, 222, 104);
+      color: rgb(54, 54, 54);
+      border-radius: 0.5rem;
+      transform: translate(-2rem, 0rem);
+      background-size: cover;
+      width: 35rem;
+      height: 6rem;
+    }
+
+    .title2 {
+      //cái title ở bên dưới
+      background-color: rgb(165, 223, 169);
+      color: rgb(54, 54, 54);
+      border-radius: 0.5rem;
+      transform: translate(0rem, 58rem);
+      background-size: cover;
+      width: 34rem;
+      height: 4.4rem;
+    }
+
+    .trangtri1 {
+      //cái trang trí dưới cùng màu xanh
+      background-color: rgb(58, 162, 65);
+      color: rgb(54, 54, 54);
+      border-radius: 1%;
+      transform: translate(51rem, 77rem);
+      background-size: cover;
+      width: 18rem;
+      height: 50rem;
+    }
+
+    .trangtri2 {
+      //cái trang trí dưới cùng màu xanh
+      background-color: rgb(49, 196, 59);
+      color: rgb(54, 54, 54);
+      border-radius: 1rem;
+      transform: translate(48rem, 111rem);
+      background-size: cover;
+      width: 18rem;
+      height: 62rem;
+    }
+
+    .trangtri3 {
+      //cái trang trí dưới cùng màu xanh
+      background-color: rgb(90, 203, 90);
+      color: rgb(54, 54, 54);
+      border-radius: 1rem;
+      transform: translate(45rem, 148rem);
+      background-size: cover;
+      width: 18rem;
+      height: 58rem;
+    }
+
+    .stitle2 {
+      //cái nền bên dưới chỗ xe bus
+      background-color: rgb(120, 161, 122);
+      color: rgb(54, 54, 54);
+      border-top-right-radius: 1rem;
+      border-bottom-right-radius: 1rem;
+      transform: translate(19rem, -1.9rem);
+      background-size: cover;
+      width: 38rem;
+      height: 143.65rem;
+      p {
+        width: 40rem;
+        left: 60rem;
+      }
+    }
+
+    .stitle {
+      //cái nền chỗ "vậy mời bạn....." ở bên trên
+      background-color: rgb(101, 136, 104);
+      color: rgb(0, 0, 0);
+      border-radius: 0.5rem;
+      transform: translate(-2rem, 9rem);
+      background-size: cover;
+      width: 26rem;
+      height: 17rem;
+    }
+    .intro {
+      //cái hình chữ nhật ở bên dưới của cái đầu tiên
+      background-color: rgb(158, 194, 160);
+      color: rgb(54, 54, 54);
+      border-radius: 0.5rem;
+      background-size: cover;
+      top: 5.5%;
+      left: 5%;
+      width: 16rem;
+      height: 36rem;
+      p {
+        width: 20rem;
+        left: 40rem;
+      }
+    }
+
+    .intro2 {
+      //cái hình chữ nhật ở bên dưới của cái bên dưới
+      background-color: rgb(143, 187, 146);
+      color: rgb(54, 54, 54);
+      border-radius: 0.5rem;
+      transform: translate(-2rem, 55rem);
+      background-size: cover;
+      width: 22rem;
+      height: 151rem;
+      p {
+        width: 100rem;
+        left: 60rem;
+      }
+    }
+
+    .lists {
+      // mấy cái hình tự chuyển
+      top: 5.5%;
+      left: 44%;
+      // transform: translate(13rem, -45.4rem);
+      background-size: cover;
+      width: 35rem;
+      height: 60rem;
+      .lists-item {
+        font-family: "Roboto", sans-serif;
+        font-size: 2rem /* 20px */;
+        padding-left: 3rem;
+        line-height: 87rem /* 28px */;
+        font-weight: 600;
+        display: flex;
+        align-items: end;
+        justify-content: flex-start;
+        background-size: cover;
+        width: 23rem;
+        height: 80%;
+        border-radius: 0.7rem;
+        color: white;
+        transition: ease-in-out 300ms;
+      }
+
+      .lists-item:hover {
+        //hiệu ứng chứ khi di chuột vào
+        padding-right: 0rem;
+        font-size: 3rem /* 30px */;
+        background-size: cover;
+        line-height: 88rem /* 36px */;
+      }
+    }
+
+    //BUS74
+    .nen74 {
+      //nen trang tri 74
+      background-color: rgb(59, 118, 59);
+      color: rgb(0, 0, 0);
+      border-radius: 0.5rem;
+      transform: translate(0rem, 2rem);
+      background-size: cover;
+      width: 18rem;
+      height: 18rem;
+    }
+    .hinh74 {
+      // hình 74
+      background-image: url("https://scontent.fhan14-1.fna.fbcdn.net/v/t39.30808-6/373643390_686887706802829_6593300066273874821_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHNxRppdSvvNg8ufALTd01N1z1IYbHzA33XPUhhsfMDfTuFTtKiiDF85pSdY1CvH0s9DPKVg8teatOcS6tG9-lF&_nc_ohc=RVtsgSaFMFgQ7kNvgGHVzdF&_nc_ht=scontent.fhan14-1.fna&_nc_gid=ADb2RkfoZWKpyQdIGIMM2ZA&oh=00_AYCfN7wHBPcu1oVVIwo1M8BrnI_D5pB81ids3-FQ6rs62g&oe=6722B334");
+      width: 17rem;
+      height: 17rem;
+      background-size: cover;
+      border-radius: 1%;
+      transform: translate(0rem, 2rem);
+    }
+    .muiten74 {
+      // mui ten 74
+      background-image: url("https://i.imgur.com/zC8NFDA.png");
+      width: 26rem;
+      height: 9rem;
+      background-size: cover;
+      border-radius: 0%;
+      transform: translate(10rem, -2.1rem);
+    }
+    .thongtin74 {
+      // thông tin 74
+      width: 100rem;
+      font-size: 1.4rem;
+      color: rgb(0, 0, 0);
+      text-align: left; //căn lề
+      letter-spacing: 1px;
+      transform: translate(20.5rem, 6rem);
+    }
+    .nenlotrinh74 {
+      // cái nền
+      background-color: rgb(149, 212, 149);
+      color: rgb(54, 54, 54);
+      border-radius: 1.5rem;
+      transform: translate(20rem, 14rem);
+      background-size: cover;
+      width: 36rem;
+      height: 9rem;
+    }
+    .lotrinh74 {
+      // lo trinh 74
+      width: 35rem;
+      font-size: 1.1rem;
+      color: rgb(0, 0, 0);
+      text-align: center; //căn lề
+      letter-spacing: 0px;
+      transform: translate(20.5rem, 15.5rem);
+    }
+
+    //BUS88
+    .nen88 {
+      //nen trang tri 88
+      background-color: rgb(59, 118, 59);
+      color: rgb(0, 0, 0);
+      border-radius: 0.5rem;
+      transform: translate(0rem, 29rem);
+      background-size: cover;
+      width: 18rem;
+      height: 18rem;
+    }
+    .hinh88 {
+      // hình 88
+      background-image: url("https://scontent.fhan14-3.fna.fbcdn.net/v/t39.30808-6/375460512_686884050136528_6044448746776398162_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeG78orkgX_6opADmBFeia8HzNMuPaLGkUPM0y49osaRQ7pcWdK5-ELuiLUw653IV2pgYfsXAg6QluLlQABbyORU&_nc_ohc=iHWi9C6Lkz0Q7kNvgHiNVhQ&_nc_ht=scontent.fhan14-3.fna&_nc_gid=APq-0ZarrYOwrdKUL9Lwjww&oh=00_AYBpmGSxhdhMlKIeDvHVb6PB_XrkqqPgzaFPjQBqs-PXxw&oe=6722BD78");
+      width: 17rem;
+      height: 17rem;
+      background-size: cover;
+      border-radius: 1%;
+      transform: translate(0rem, 29rem);
+    }
+    .muiten88 {
+      // mui ten 88
+      background-image: url("https://i.imgur.com/zC8NFDA.png");
+      width: 26rem;
+      height: 9rem;
+      background-size: cover;
+      border-radius: 0%;
+      transform: translate(10rem, 25rem);
+    }
+    .thongtin88 {
+      // thông tin 88
+      width: 100rem;
+      font-size: 1.4rem;
+      color: rgb(0, 0, 0);
+      text-align: left; //căn lề
+      letter-spacing: 1px;
+      transform: translate(20.5rem, 33rem);
+    }
+    .nenlotrinh88 {
+      // cái nền
+      background-color: rgb(149, 212, 149);
+      color: rgb(54, 54, 54);
+      border-radius: 1.5rem;
+      transform: translate(20rem, 41rem);
+      background-size: cover;
+      width: 36rem;
+      height: 9rem;
+    }
+    .lotrinh88 {
+      // lo trinh 88
+      width: 36rem;
+      font-size: 1.1rem;
+      color: rgb(0, 0, 0);
+      text-align: center; //căn lề
+      letter-spacing: 0px;
+      transform: translate(20rem, 43rem);
+    }
+
+    //BUS119
+    .nen119 {
+      //nen trang tri 119
+      background-color: rgb(59, 118, 59);
+      color: rgb(54, 54, 54);
+      border-radius: 0.5rem;
+      transform: translate(0rem, 56rem);
+      background-size: cover;
+      width: 18rem;
+      height: 18rem;
+    }
+    .hinh119 {
+      // hình 119
+      background-image: url("https://scontent.fsgn2-7.fna.fbcdn.net/v/t39.30808-6/375312337_686884086803191_4581017966169369433_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeFsR2oxMd8hb_TSYXJ1TYxTFmOHIucDX1kWY4ci5wNfWUXXocNuiPYx7VAp2b4tWp4akvHbijhdK38vhn2-7VFq&_nc_ohc=lgxuL2N2p4EQ7kNvgHjNnd0&_nc_ht=scontent.fsgn2-7.fna&_nc_gid=ANHQovqMgqdUNCFrz76Ohak&oh=00_AYClp5f6Mmlt5mNt_Lb77seuGJD7svSkbuZP8wAu0vcNcg&oe=67236E21");
+      width: 17rem;
+      height: 17rem;
+      background-size: cover;
+      border-radius: 1%;
+      transform: translate(0rem, 56rem);
+    }
+    .muiten119 {
+      // mui ten 119
+      background-image: url("https://i.imgur.com/zC8NFDA.png");
+      width: 26rem;
+      height: 9rem;
+      background-size: cover;
+      border-radius: 0%;
+      transform: translate(10rem, 51.9rem);
+    }
+    .thongtin119 {
+      // thông tin 119
+      width: 100rem;
+      font-size: 1.4rem;
+      color: rgb(0, 0, 0);
+      text-align: left; //căn lề
+      letter-spacing: 1px;
+      transform: translate(20.5rem, 60rem);
+    }
+    .nenlotrinh119 {
+      // cái nền
+      background-color: rgb(149, 212, 149);
+      color: rgb(54, 54, 54);
+      border-radius: 1.5rem;
+      transform: translate(20rem, 68rem);
+      background-size: cover;
+      width: 36rem;
+      height: 9rem;
+    }
+    .lotrinh119 {
+      // lo trinh 119
+      width: 35rem;
+      font-size: 1.1rem;
+      color: rgb(0, 0, 0);
+      text-align: center; //căn lề
+      letter-spacing: 0px;
+      transform: translate(20.3rem, 69rem);
+    }
+
+    //BUS107
+    .nen107 {
+      //nen trang tri 107
+      background-color: rgb(59, 118, 59);
+      color: rgb(54, 54, 54);
+      border-radius: 0.5rem;
+      transform: translate(0rem, 83rem);
+      background-size: cover;
+      width: 18rem;
+      height: 18rem;
+    }
+    .hinh107 {
+      // hình 107
+      background-image: url("https://scontent.fsgn2-10.fna.fbcdn.net/v/t39.30808-6/373561926_686884096803190_7224857064719609094_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeEd4ANPVQoPgDGgX6MOPvPDbpI1oLOf3otukjWgs5_ei00_sj9bcIp5vNaGKVT0Kl4c7ykaYqw5FGtz9yZksom-&_nc_ohc=H3oC_xz7PC0Q7kNvgGtRttd&_nc_ht=scontent.fsgn2-10.fna&_nc_gid=AP7Z0l_PN06wUAoTtgkqEID&oh=00_AYCCbNgOBdm9zzHdLQVKBfWAwe-v7Cr0r-1ah1dYXixPKA&oe=67236ABF");
+      width: 17rem;
+      height: 17rem;
+      background-size: cover;
+      border-radius: 1%;
+      transform: translate(0rem, 83rem);
+    }
+    .muiten107 {
+      // mui ten 107
+      background-image: url("https://i.imgur.com/zC8NFDA.png");
+      width: 26rem;
+      height: 9rem;
+      background-size: cover;
+      border-radius: 0%;
+      transform: translate(10rem, 78.9rem);
+    }
+    .thongtin107 {
+      // thông tin 107
+      width: 100rem;
+      font-size: 1.4rem;
+      color: rgb(0, 0, 0);
+      text-align: left; //căn lề
+      letter-spacing: 1px;
+      transform: translate(20.5rem, 88rem);
+    }
+    .nenlotrinh107 {
+      // cái nền
+      background-color: rgb(149, 212, 149);
+      color: rgb(54, 54, 54);
+      border-radius: 1.5rem;
+      transform: translate(20rem, 96rem);
+      background-size: cover;
+      width: 36rem;
+      height: 9rem;
+    }
+    .lotrinh107 {
+      // lo trinh 107
+      width: 36rem;
+      font-size: 0.9rem;
+      color: rgb(0, 0, 0);
+      text-align: center; //căn lề
+      letter-spacing: 0px;
+      transform: translate(20rem, 97rem);
+    }
+
+    //BUS117
+    .nen117 {
+      //nen trang tri 117
+      background-color: rgb(59, 118, 59);
+      color: rgb(54, 54, 54);
+      border-radius: 0.5rem;
+      transform: translate(0rem, 111rem);
+      background-size: cover;
+      width: 18rem;
+      height: 18rem;
+    }
+    .hinh117 {
+      // hình 117
+      background-image: url("https://scontent.fsgn2-10.fna.fbcdn.net/v/t39.30808-6/373580207_686884120136521_8092707870195601125_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGGkg7b6bLl82105WsBqlCg9yYmpaNa1SP3Jialo1rVI3hSi0ZvCIRealGTx-pn_5kxWbhuOVSe-EHWIXNpn5TH&_nc_ohc=3mT0Ys49-BMQ7kNvgH-fVT9&_nc_ht=scontent.fsgn2-10.fna&_nc_gid=Arnb8JDV89JtGmheqdBunZM&oh=00_AYBW6oQJttJJlGLiWgr0cOJ-0Y3q0W5b9sWCwK5Qs-iUzA&oe=67239A3F");
+      width: 17rem;
+      height: 17rem;
+      background-size: cover;
+      border-radius: 1%;
+      transform: translate(0rem, 111rem);
+    }
+    .muiten117 {
+      // mui ten 117
+      background-image: url("https://i.imgur.com/zC8NFDA.png");
+      width: 26rem;
+      height: 9rem;
+      background-size: cover;
+      border-radius: 0%;
+      transform: translate(10rem, 106.9rem);
+    }
+    .thongtin117 {
+      // thông tin 117
+      width: 100rem;
+      font-size: 1.4rem;
+      color: rgb(0, 0, 0);
+      text-align: left; //căn lề
+      letter-spacing: 1px;
+      transform: translate(20.5rem, 116rem);
+    }
+    .nenlotrinh117 {
+      // cái nền
+      background-color: rgb(149, 212, 149);
+      color: rgb(54, 54, 54);
+      border-radius: 1.5rem;
+      transform: translate(20rem, 124rem);
+      background-size: cover;
+      width: 36rem;
+      height: 9rem;
+    }
+    .lotrinh117 {
+      // lo trinh 117
+      width: 30rem;
+      font-size: 1.1rem;
+      color: rgb(0, 0, 0);
+      text-align: center; //căn lề
+      letter-spacing: 0px;
+      transform: translate(22.3rem, 125rem);
+    }
+
+
+
+    .nenvang {
+      //nền màu vàng
+      background-color: rgb(160, 128, 34);
+      color: rgb(54, 54, 54);
+      border-top-right-radius: 1rem;
+      border-top-left-radius: 1rem;
+      transform: translate(0%, 136%);
+      background-size: cover;
+      height: 158rem;
+      width: 100%;
+    }
+    
+    .anhnenvang {
+      // cái hình nền oto
+      background-image: url("https://scontent.fhan2-3.fna.fbcdn.net/v/t39.30808-6/449981766_872389521581444_7780841484779448801_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE9m-pDY_k_behJjSjUlUoqv5c-ODuvSa2_lz44O69Jrf_GkWnwBFwN__-CQ3jQI0Nh-paNt3Xi1oDG_q3XQNO1&_nc_ohc=CZtzqzc-jCUQ7kNvgH2Y-c0&_nc_zt=23&_nc_ht=scontent.fhan2-3.fna&_nc_gid=Ay-Czj_paunnU7KwNPsEATr&oh=00_AYCwaC9KKPevIJgx1imzbp3yzFFXsYDB2I6x2R9NVOgOcw&oe=6724D0C2");
+      width: 100%;
+      height: 70%;
+      opacity: 0.23;
+      border-radius: 1rem;
+      background-size: cover;
+      transform: translate(0rem, 0rem);
+    }
+    
+    .title3 {
+      //cái title ở bên trên
+      background-color: rgb(255, 183, 0);
+      color: rgb(54, 54, 54);
+      border-radius: 1rem;
+      font-size: 2.2rem;
+      transform: translate(4rem, -20rem);
+      background-size: cover;
+      width: 46rem;
+      height: 7rem;
+    }
+
+    .nengioithieuapp {
+      //cái nền chỗ giới thiệu app bla bla
+      background-color: rgb(196, 155, 69);
+      color: rgb(0, 0, 0);
+      border-radius: 0.5rem;
+      font-size: 1.3rem;
+      transform: translate(6rem, -11rem);
+      background-size: cover;
+      width: 38rem;
+      height: 18rem;
+    }
+    .gioithieuapp {
+      width: 36rem;
+      font-size: 1rem;
+      color: rgb(0, 0, 0);
+      text-align: left; //căn lề
+      letter-spacing: 0px;
+      transform: translate(7rem, -10rem);
+    }
+
+    .nengioithieuapp1 {
+      //cái nền chỗ giới thiệu app bla bla
+      background-color: rgb(196, 155, 69);
+      color: rgb(0, 0, 0);
+      border-radius: 0.5rem;
+      font-size: 1.3rem;
+      transform: translate(6rem, -1rem);
+      background-size: cover;
+      width: 38rem;
+      height: 6rem;
+    }
+    .gioithieuapp1 {
+      width: 36rem;
+      font-size: 1.3rem;
+      color: rgb(0, 0, 0);
+      text-align: left; //căn lề
+      letter-spacing: 0px;
+      transform: translate(7rem, 0rem);
+    }
+    .keoxuong {
+      background-image: url("https://i.imgur.com/yFYdMRR.png");
+      width: 15rem;
+      height: 6rem;
+      background-size: cover;
+      border-radius: 0%;
+      transform: translate(18rem, 3rem);
+    }
+
+    .anhapp {
+      // anh quang cao app
+      background-image: url("https://scontent.fsgn2-3.fna.fbcdn.net/v/t39.30808-6/435061258_815500763941522_3575040056830748563_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGbzyFxT2Sx3VLCfVrudyiT3bzCfohwLQXdvMJ-iHAtBaj8Ois4KJMWKX5Y9QqxSW36lnw2HASTnhNjHCHR6YCh&_nc_ohc=VUxaGqNoCUoQ7kNvgGnGVi3&_nc_ht=scontent.fsgn2-3.fna&_nc_gid=AU14porzt-eKi0xj6d0bAML&oh=00_AYCU3PUinbsOFrfiAnrISMupT5MqV0IBvfVEaI5t8KZzng&oe=67242DA4");
+      width: 26rem;
+      height: 26rem;
+      background-size: cover;
+      border-radius: 1rem;
+      transform: translate(45rem, 12rem);
+    }
+
+    .yellow {
+      //cái hình chữ nhật màu vàng để làm nền cho đẹp
+      background-color: rgb(255, 227, 103);
+      border-radius: 0.5rem;
+      background-size: cover;
+      transform: translate(5rem, 9rem);
+      width: 41rem;
+      height: 43rem;
+    }
+
+    .yellow2 {
+      //cái hình chữ nhật màu vàng để làm nền cho đẹp
+      background-color: rgb(255, 152, 33);
+      border-radius: 1rem;
+      background-size: cover;
+      transform: translate(55rem, 17rem);
+      width: 16rem;
+      height: 79rem;
+    }
+
+    //APPBUSMAP
+    .nenapp1 {
+      background-color: rgb(59, 118, 59);
+      color: rgb(54, 54, 54);
+      border-radius: 1rem;
+      transform: translate(45rem, 12.1rem);
+      background-size: cover;
+      width: 13.5rem;
+      height: 13.5rem;
+    }
+    .hinhapp1 {
+      background-image: url("https://play-lh.googleusercontent.com/oRulL_tjJp0l1eG_lxZC7TI9wF9OArBY1oOBvGJFiP0ZdFd1LnZc9sg1S7O0rrJzvs6k");
+      width: 13rem;
+      height: 13rem;
+      background-size: cover;
+      border-radius: 1rem;
+      transform: translate(45rem, 12.1rem);
+    }
+    .muitenapp1 {
+      background-image: url("https://i.imgur.com/h7E8MKP.png");
+      width: 15rem;
+      height: 4rem;
+      background-size: cover;
+      border-radius: 0%;
+      transform: translate(56rem, 20rem);
+    }
+    .nenthongtinapp1 {
+      // cái nền
+      background-color: rgb(138, 193, 138);
+      color: rgb(54, 54, 54);
+      border-radius: 1.5rem;
+      transform: translate(11rem, 21.1rem);
+      background-size: cover;
+      width: 36rem;
+      height: 9rem;
+    }
+    .thongtinapp1 {
+      width: 33rem;
+      font-size: 1rem;
+      color: rgb(0, 0, 0);
+      text-align: left; //căn lề
+      letter-spacing: 0px;
+      transform: translate(11rem, 12rem);
+    }
+    .thongtinapp2 {
+      width: 33rem;
+      font-size: 1rem;
+      color: rgb(0, 0, 0);
+      text-align: left; //căn lề
+      letter-spacing: 0px;
+      transform: translate(11rem, 31rem);
+    }
+    .thongtinapp3 {
+      width: 33rem;
+      font-size: 1rem;
+      color: rgb(0, 0, 0);
+      text-align: left; //căn lề
+      letter-spacing: 0px;
+      transform: translate(11rem, 50rem);
+    }
+    .thongtinapp4 {
+      width: 33rem;
+      font-size: 1rem;
+      color: rgb(0, 0, 0);
+      text-align: left; //căn lề
+      letter-spacing: 0px;
+      transform: translate(11rem, 60rem);
+    }
+    .nenlinkapp1 {
+      // cái nền
+      background-color: rgb(59, 177, 59);
+      color: rgb(54, 54, 54);
+      border-radius: 1.5rem;
+      transform: translate(14rem, 20.5rem);
+      background-size: cover;
+      width: 33rem;
+      height: 5rem;
+    }
+    .nenlinkapp1:hover {
+      a:visited {
+        color: rgb(182, 233, 0);
+      }
+      
+      /* mouse over link */
+      a:hover {
+        color: rgb(166, 191, 0);
+      }
+      
+      /* selected link */
+      a:active {
+        color: rgb(43, 0, 255);
+      }
+    }
+
+    //APPMOOVIT
+    .nenapp2 {
+      background-color: rgb(116, 66, 19);
+      color: rgb(54, 54, 54);
+      border-radius: 1rem;
+      transform: translate(45rem, 31rem);
+      background-size: cover;
+      width: 13.5rem;
+      height: 13.5rem;
+    }
+    .hinhapp2 {
+      background-image: url("https://scontent.fsgn2-5.fna.fbcdn.net/v/t39.30808-6/333867215_752750356420500_1767718955795039412_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEuAHJLCCzr-I1RjL4hAeIg253xOeWvrJ3bnfE55a-sneQ1QrFZ8BdYGaWjEeq7lWi7f1r1gTmr8Dn7SQoiEdC2&_nc_ohc=vv16gGA0g0gQ7kNvgG8Wu2-&_nc_ht=scontent.fsgn2-5.fna&_nc_gid=A5enduTOaOIbXKvYBYMRxpV&oh=00_AYD3dZRxpEaXFf9R1A7kr8PgNiEJn7rBKuaAugN0Lb9yCg&oe=6723B626");
+      width: 13rem;
+      height: 13rem;
+      background-size: cover;
+      border-radius: 1rem;
+      transform: translate(45rem, 31rem);
+    }
+    .muitenapp2 {
+      background-image: url("https://i.imgur.com/Hd9NVBs.png");
+      width: 16.4rem;
+      height: 4rem;
+      background-size: cover;
+      border-radius: 0%;
+      transform: translate(55rem, 29.7rem);
+    }
+    .nenthongtinapp2 {
+      // cái nền
+      background-color: rgb(245, 145, 63);
+      color: rgb(54, 54, 54);
+      border-radius: 1.5rem;
+      transform: translate(11rem, 31rem);
+      background-size: cover;
+      width: 36rem;
+      height: 9rem;
+    }
+    .nenlinkapp2 {
+      // cái nền
+      background-color: rgb(143, 83, 46);
+      color: rgb(54, 54, 54);
+      border-radius: 1.5rem;
+      transform: translate(14rem, 39.5rem);
+      background-size: cover;
+      width: 33rem;
+      height: 5rem;
+    }
+    .nenlinkapp2:hover {
+      a:visited {
+        color: rgb(0, 208, 62);
+      }
+      
+      /* mouse over link */
+      a:hover {
+        color: rgb(29, 126, 0);
+      }
+      
+      /* selected link */
+      a:active {
+        color: rgb(43, 0, 255);
+      }
+    }
+
+    //APPGGMAP
+    .nenapp3 {
+      background-color: rgb(116, 66, 19);
+      color: rgb(54, 54, 54);
+      border-radius: 1rem;
+      transform: translate(45rem, 50rem);
+      background-size: cover;
+      width: 13.5rem;
+      height: 13.5rem;
+    }
+    .hinhapp3 {
+      background-image: url("https://i.pinimg.com/originals/39/85/4b/39854b4e7ba1386a8d05eedb63796ac7.png");
+      width: 13rem;
+      height: 13rem;
+      background-size: cover;
+      border-radius: 1rem;
+      transform: translate(45rem, 50rem);
+    }
+    .muitenapp3 {
+      background-image: url("https://i.imgur.com/UdHOT87.png");
+      width: 16.4rem;
+      height: 4rem;
+      background-size: cover;
+      border-radius: 0%;
+      transform: translate(55rem, 48.7rem);
+    }
+    .nenthongtinapp3 {
+      // cái nền
+      background-color: rgb(42, 142, 236);
+      color: rgb(54, 54, 54);
+      border-radius: 1.5rem;
+      transform: translate(11rem, 50rem);
+      background-size: cover;
+      width: 36rem;
+      height: 9rem;
+    }
+    .nenlinkapp3 {
+      // cái nền
+      background-color: rgb(27, 111, 171);
+      color: rgb(54, 54, 54);
+      border-radius: 1.5rem;
+      transform: translate(14rem, 58.5rem);
+      background-size: cover;
+      width: 33rem;
+      height: 5rem;
+    }
+    .nenlinkapp3:hover {
+      a:visited {
+        color: rgb(255, 145, 0);
+      }
+      
+      /* mouse over link */
+      a:hover {
+        color: rgb(191, 60, 0);
+      }
+      
+      /* selected link */
+      a:active {
+        color: rgb(43, 0, 255);
+      }
+    }
+
+    //APP4 TIMBUS
+    .nenapp4 {
+      background-color: rgb(116, 66, 19);
+      color: rgb(54, 54, 54);
+      border-radius: 1rem;
+      transform: translate(45rem, 60rem);
+      background-size: cover;
+      width: 13.5rem;
+      height: 13.5rem;
+    }
+    .hinhapp4 {
+      background-image: url("https://play-lh.googleusercontent.com/vc4gBkmfCFWt_z2_uolyBI1BKcASew72MbvOsRt9LnRr8WW0-tQq2xQyk-rXzTcxzhkv=w480-h960-rw");
+      width: 13rem;
+      height: 13rem;
+      background-size: cover;
+      border-radius: 1rem;
+      transform: translate(45rem, 60rem);
+    }
+    .muitenapp4 {
+      background-image: url("https://i.imgur.com/48Va8oD.png");
+      width: 17rem;
+      height: 5rem;
+      background-size: cover;
+      border-radius: 0%;
+      transform: translate(54.5rem, 67.3rem);
+    }
+    .nenthongtinapp4 {
+      // cái nền
+      background-color: rgb(255, 230, 1);
+      color: rgb(54, 54, 54);
+      border-radius: 1.5rem;
+      transform: translate(11rem, 69rem);
+      background-size: cover;
+      width: 36rem;
+      height: 9rem;
+    }
+    .nenlinkapp4 {
+      // cái nền
+      background-color: rgb(172, 149, 0);
+      color: rgb(54, 54, 54);
+      border-radius: 1.5rem;
+      transform: translate(14rem, 68.5rem);
+      background-size: cover;
+      width: 33rem;
+      height: 5rem;
+    }
+    .nenlinkapp4:hover {
+      a:visited {
+        color: rgb(0, 255, 229);
+      }
+      
+      /* mouse over link */
+      a:hover {
+        color: rgb(0, 184, 163);
+      }
+      
+      /* selected link */
+      a:active {
+        color: rgb(43, 0, 255);
+      }
+    }
+}

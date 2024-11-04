@@ -1,0 +1,65 @@
+.FPTUPage {
+  .part1 {
+    background-position-y: 70%;
+    .opa {
+      background-color: black;
+      opacity: 0.23;
+    }
+    .intro {
+      color: white;
+      top: 10%;
+      left: 5%;
+      p {
+        width: 40rem;
+      }
+    }
+    .lists {
+      top: 70%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      //   grid-template-columns: repeat(auto-fill, 17rem);
+      .lists-item {
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        font-size: 1.25rem /* 20px */;
+        line-height: 1.75rem /* 28px */;
+        font-weight: 600;
+        display: flex;
+        align-items: end;
+        justify-content: center;
+        width: 23rem;
+        height: 11rem;
+        background-color: #589dff;
+        border-radius: 0.5rem;
+        color: white;
+        transition: ease-in-out 300ms;
+        // padding-bottom: 1rem;
+        .linear {
+          height: 100%;
+          background-image: linear-gradient(
+            rgba(255, 255, 255, 0),
+            rgba(0, 0, 0, 0.703)
+          );
+        }
+      }
+      .lists-item:hover {
+        font-size: 1.875rem /* 30px */;
+        line-height: 2.25rem /* 36px */;
+      }
+
+      .swiper-button-next,
+      .swiper-button-prev {
+        width: 2.6rem;
+        height: 2.6rem;
+        background-color: black;
+        border-radius: 100%;
+        opacity: 0.5;
+      }
+      .swiper-button-next::after,
+      .swiper-button-prev::after {
+        font-size: 1.6rem;
+        color: white;
+      }
+    }
+  }
+}

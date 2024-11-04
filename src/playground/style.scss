@@ -1,0 +1,99 @@
+.playPage {
+  .wrapper-header {
+    background-image: url(https://i.pinimg.com/736x/ef/62/ad/ef62ada10cb8071ec0d8c6fafd07426d.jpg);
+    background-size: contain;
+    height: 40rem;
+    .title {
+      width: 40rem;
+      button {
+        padding: 0.3rem 1.2rem;
+        background-color: #e0702b;
+        border-radius: 0.2rem;
+      }
+    }
+    .img {
+      background-image: url(https://i.pinimg.com/enabled_hi/564x/a4/4f/5c/a44f5c1cd540f45ce2b4eb2c1b78a1b2.jpg);
+      background-size: cover;
+      height: 33rem;
+      width: 26rem;
+      // border: 1px solid #E0702B;
+      border-radius: 0.2rem;
+    }
+  }
+  .wrapper-body {
+    .tabs-wrapper {
+      width: 80%;
+      .block-tabs {
+        border-bottom: 1.3px solid rgb(160, 160, 160);
+        .tabs {
+          border: 1px solid black;
+          padding: 0.2rem 1.2rem;
+          transition: ease-in-out 200ms;
+        }
+        .active-tabs {
+          color: #e0702b;
+        }
+      }
+      .content-tabs {
+        width: 100%;
+        padding: 1.3rem 0.7rem;
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+          rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+        .disable {
+          display: none;
+        }
+        .search-content {
+          input {
+            display: block;
+            width: 40%;
+            border-radius: 0.2rem;
+          }
+          input:focus {
+            outline: none;
+          }
+          .searchOutlined {
+            box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+              rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+            width: 2.3rem;
+            height: 2.3rem;
+            border-radius: 100%;
+            background-color: white;
+          }
+        }
+        .content-wrapper {
+          .content-item{
+            background-color: rgb(244, 231, 231);
+            border-radius: 0.2rem;
+            padding: 0.9rem 0.9rem;
+            width: 97.5%;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+            grid-template-columns: auto auto;
+            .img{
+              background-size: cover;
+              width: 15rem;
+              height: 15rem;
+              border-radius: 0.4rem;
+            }
+            .content-text{
+              box-sizing: border-box;
+              .locationName{
+                width: 50rem;
+              }
+              .locationDetail{
+                width: 45rem;
+              }
+              .more{
+                border-radius: 0.4rem;
+                background-color: #e0702b;
+                padding: 0.3rem 1.4rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .orange {
+    color: #e0702b;
+  }
+}

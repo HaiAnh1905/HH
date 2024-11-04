@@ -1,0 +1,103 @@
+.food-wrapper-content {
+  .head-wrapper-content {
+    grid-template-columns: 35% 50%;
+    .img {
+      width: 25rem;
+      .img-food2 {
+        top: 50%;
+        left: 75%;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+  .body-wrapper-content {
+    .tabs-wrapper {
+      .tabsComp {
+        .tab {
+          border: 0.01rem solid black;
+          padding: 0.4rem 0.7rem;
+          transition: ease-in-out 300ms;
+        }
+        .active-tab {
+          color: #e0702b;
+        }
+      }
+    }
+    .searchComp {
+      input {
+        padding: 0.5rem 0.6rem;
+        width: 30rem;
+        border-radius: 0.2rem;
+      }
+      input:focus {
+        outline: none;
+      }
+    }
+    .tabs-content-wrapper {
+      width: 100%;
+      .disable{
+        display: none;
+      }
+      .content-wrapper {
+        width: 80%;
+        margin: auto;
+        .foodcard {
+          border-radius: 0.3rem;
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          padding: 0.5rem;
+          .img {
+            border-radius: 0.3rem;
+            width: 23rem;
+            height: 14rem;
+            background-size: cover;
+          }
+          .discription {
+            width: 22rem;
+          }
+          .pricing {
+            color: rgb(102, 102, 102);
+          }
+          .readmore {
+            color: white;
+            border-radius: 0.2rem;
+            background-color: #e0702b;
+            padding: 0.3rem 1.2rem;
+            width: fit-content;
+          }
+          .popup-wrapper{
+            height: fit-content;
+          }
+          .popup-content-wrapper {
+            grid-template-columns: auto auto;
+            .swiperz {
+              .mySwiper {
+                width: 20rem;
+                height: 20rem;
+              }
+              .mySwiper2 {
+                width: 20rem;
+                .slider-me {
+                  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+                    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+                  border-radius: 0.3rem;
+                }
+              }
+            }
+            .detail-content {
+            }
+            .link {
+              padding: 0.3rem 0.6rem;
+              background-color: #e0702b;
+              .alink {
+                color: white !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .orange {
+    color: #e0702b;
+  }
+}

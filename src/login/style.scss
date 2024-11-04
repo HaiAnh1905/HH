@@ -1,0 +1,86 @@
+.LoginPage {
+    width: 100%;
+    grid-template-columns: 52% 48%;
+    //   border: 1px solid black;
+    .img {
+      width: 100%;
+      height: 40rem;
+      display: block;
+      .title{
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        .text-title{
+          // color: #e0702b;
+        }
+      }
+      .background-img {
+        background-position-x: 45%;
+        background-size: cover;
+        filter: blur(0.1rem);
+      }
+      .img-center {
+        object-fit: cover;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 0.2rem;
+        overflow: hidden;
+      }
+      .discription{
+        top: 85%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+    .login-form {
+      width: 22.5rem;
+      background-color: white;
+      box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+      h1 {
+        color: #e0702b;
+      }
+      .guest {
+        color: rgb(109, 109, 109);
+      }
+      form {
+        .text-grey {
+          color: rgb(109, 109, 109);
+        }
+        input {
+          border-bottom: 1px solid rgb(188, 188, 188);
+        }
+      }
+      .toSignup {
+        .ora-text {
+          color: #e0702b;
+        }
+      }
+      .toForget{
+        color: #e0702b;
+      }
+      .btn-cf {
+        color: white;
+        background-color: #e0702b;
+        border-radius: 0.3rem;
+        border: none;
+      }
+    }
+    .blur-bg{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      display: block;
+      background-color: black;
+      opacity: 0.4;
+    }
+    .popup-wrapper{
+      transform: translate(-50%, -50%);
+      .popup{
+        color: #e0702b;
+        background-color: rgb(230, 230, 230);
+        border-radius: 0.2rem;
+      }
+    }
+  }
+  
