@@ -2,8 +2,14 @@ import { NavLink } from "react-router-dom";
 // import logoFPTU from "../../public/fpt-logo.png";
 import logoGroup from "../../public/group-logo.png";
 import "./style.scss";
+import { useState } from "react";
 
 export default function NavBar() {
+  const [activeTabs, setActiveTabs] = useState<number>(1);
+
+  const handleTabs = (index:number) => {
+    setActiveTabs(index);
+  }
   return (
     <div className="navbar grid px-14 py-2">
       <NavLink to='/' className="logo-branch flex gap-1 items-center w-fit">
@@ -21,12 +27,12 @@ export default function NavBar() {
       </NavLink>
       <div className="nav-list self-center justify-self-center">
         <ul className="flex gap-7 items-center justify-center w-fit text-xl font-bold">
-          <NavLink to='/'>Trang chủ</NavLink>
-          <NavLink to='/tuyenxe'>Tuyến Xe</NavLink>
-          <NavLink to='/anuong'>Ăn uống</NavLink>
-          <NavLink to='/nhatro'>Phòng Trọ</NavLink>
-          <NavLink to='/vuichoi'>Vui chơi</NavLink>
-          <NavLink to='/fptu'>FPTU</NavLink>
+          <NavLink onClick={() => {handleTabs(1)}} className={activeTabs == 1 ? "oorange" : ""} to='/'>Trang chủ</NavLink>
+          <NavLink onClick={() => {handleTabs(2)}} className={activeTabs == 2 ? "oorange" : ""} to='/tuyenxe'>Tuyến Xe</NavLink>
+          <NavLink onClick={() => {handleTabs(3)}} className={activeTabs == 3 ? "oorange" : ""} to='/anuong'>Ăn uống</NavLink>
+          <NavLink onClick={() => {handleTabs(4)}} className={activeTabs == 4 ? "oorange" : ""} to='/nhatro'>Phòng Trọ</NavLink>
+          <NavLink onClick={() => {handleTabs(5)}} className={activeTabs == 5 ? "oorange" : ""} to='/vuichoi'>Vui chơi</NavLink>
+          <NavLink onClick={() => {handleTabs(6)}} className={activeTabs == 6 ? "oorange" : ""} to='/fptu'>FPTU</NavLink>
         </ul>
       </div>
       <div className="right flex items-center justify-center gap-5 justify-self-end">
