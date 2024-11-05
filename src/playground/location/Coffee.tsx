@@ -1,6 +1,6 @@
 // import React from "react";
 // import { SearchOutlined } from "@ant-design/icons";
-import { Rate } from "antd";
+// import { Rate } from "antd";
 import { useState } from "react";
 import PopupDetail from "../../popup/index.tsx";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -19,7 +19,7 @@ interface IData {
   discription: String;
   img: string[];
   rating: number;
-  paragraph: String;
+  paragraph: String[];
   link: string;
   fanpage: string;
   map: string;
@@ -40,6 +40,13 @@ export default function Coffee(data: IData) {
     return item;
   });
 
+  const paraKeys = Object.keys(data.paragraph);
+  const paraArr = paraKeys.map((key: any) => {
+    let items = data.paragraph[key];
+
+    return items;
+  });
+
   return (
     <div className="content-item relative grid items-center gap-10 mb-11 mx-auto">
       <div
@@ -49,20 +56,30 @@ export default function Coffee(data: IData) {
         }}
       ></div>
       <div className="content-text relative">
-        <h1 className="locationName text-4xl font-semibold">{data.name}</h1>
-        <div className="locationDetail text-lg mb-3">{data.discription}</div>
+        <h1 className="locationName text-4xl font-semibold mb-4">{data.name}</h1>
+        <div
+          className="locationDetail text-lg mb-3"
+          style={{
+            WebkitLineClamp: 3,
+            WebkitBoxOrient: "vertical",
+            overflow: "hidden",
+            display: "-webkit-box",
+          }}
+        >
+          {data.discription}
+        </div>
         <div className="end flex items-center gap-10">
           <div
             onClick={() => {
               handlePopup();
             }}
-            className="more w-fit text-lg text-white font-bold"
+            className="more w-fit text-lg text-white font-bold cursor-pointer"
           >
             Xem thêm
           </div>
-          <div className="rating">
+          {/* <div className="rating">
             <Rate allowHalf disabled defaultValue={data.rating} />
-          </div>
+          </div> */}
         </div>
       </div>
       <PopupDetail
@@ -97,11 +114,12 @@ export default function Coffee(data: IData) {
           </Swiper>
           <div className="detail-content">
             <h1 className="text-5xl font-semibold mb-5">{data.name}</h1>
-            <div className="discription text-xl indent-6">
+            <div className="discription text-xl indent-6 mb-4">
               {data.discription}
             </div>
-            <br />
-            <div className="details text-xl indent-6">{data.paragraph}</div>
+            {paraArr.map((e) => {
+              return <div className="details text-xl indent-6 mb-4">{e}</div>;
+            })}
             <br />
             <div className="link text-xl flex gap-1">
               Đọc thêm tại:
