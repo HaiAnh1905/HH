@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 // import { SearchOutlined } from "@ant-design/icons";
 import FoodCard from "./foodcard";
 import food1 from "../../public/food1.jpg";

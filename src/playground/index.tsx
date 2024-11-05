@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Coffee from "./location/Coffee";
 import { SearchOutlined } from "@ant-design/icons";
 // import useSWR from "swr";
