@@ -1,4 +1,4 @@
-// import React, { useState } from "react";
+// import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, FreeMode } from "swiper/modules";
 
@@ -13,7 +13,7 @@ import "./style.scss";
 // }
 
 export default function BusRoutes() {
-  const listInfo = [
+  const listInfo =[
     {
       name: "CHUYẾN XE",
       img: "https://scontent.fhan2-5.fna.fbcdn.net/v/t39.30808-6/319015218_3233095813609679_5832714119388566604_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGj-ZnCxbvSET7iE6_oryYQ_RKnkQvCPff9EqeRC8I993teG8GpSmI4FbR7LPBPe00SnOfR-sa_Uf46SZCBqISu&_nc_ohc=jE_QPJTO0CEQ7kNvgGwgCQe&_nc_ht=scontent.fhan2-5.fna&_nc_gid=Aa9HshFTDjHybnPoefX0UHz&oh=00_AYBw_UzSaWqjbQ2MDGoktpi3a1VQopiJCtfi4qN8roIylQ&oe=671F9D67",
@@ -119,7 +119,7 @@ export default function BusRoutes() {
               <h1 className="font-bold font-mono">
                 Tần suất: 20-25 phút/lượt <br />
                 Thời gian hoạt động: 5:00 - 20:30 <br />
-                Giá vé: 9.000VNĐ/lượt; Có áp dụng vé tháng
+                Giá vé: 20.000VNĐ/lượt; Có áp dụng vé tháng
               </h1>
             </div>
             <div className="nen74 absolute"></div>
@@ -143,7 +143,7 @@ export default function BusRoutes() {
               <h1 className="font-bold font-mono">
                 Tần suất: 20-25 phút/lượt <br />
                 Thời gian hoạt động: 5:00 - 20:55 <br />
-                Giá vé: 9.000VNĐ/lượt; Có áp dụng vé tháng
+                Giá vé: 20.000VNĐ/lượt; Có áp dụng vé tháng
               </h1>
             </div>
             <div className="nen88 absolute"></div>
@@ -168,7 +168,7 @@ export default function BusRoutes() {
               <h1 className="font-bold font-mono">
                 Tần suất: 20-25 phút/lượt <br />
                 Thời gian hoạt động: 5:00 - 20:00 <br />
-                Giá vé: 9.000VNĐ/lượt; Có áp dụng vé tháng
+                Giá vé: 20.000VNĐ/lượt; Có áp dụng vé tháng
               </h1>
             </div>
             <div className="nen119 absolute"></div>
@@ -195,7 +195,7 @@ export default function BusRoutes() {
               <h1 className="font-bold font-mono">
                 Tần suất: 15-20 phút/lượt <br />
                 Thời gian hoạt động: 5:00 - 20:50 <br />
-                Giá vé: 9.000VNĐ/lượt; Có áp dụng vé tháng
+                Giá vé: 20.000VNĐ/lượt; Có áp dụng vé tháng
               </h1>
             </div>
             <div className="nen107 absolute"></div>
@@ -220,7 +220,7 @@ export default function BusRoutes() {
               <h1 className="font-bold font-mono">
                 Tần suất: 20-25 phút/lượt <br />
                 Thời gian hoạt động: 5:00 - 20:30 <br />
-                Giá vé: 9.000VNĐ/lượt; Có áp dụng vé tháng
+                Giá vé: 15.000VNĐ/lượt; Có áp dụng vé tháng
               </h1>
             </div>
             <div className="nen117 absolute"></div>
@@ -388,7 +388,50 @@ export default function BusRoutes() {
           <div className="hinhapp4 absolute"></div>
         </div>
 
-        
+        {/* THANH MAU ĐEN Ở CUỐI CÙNG */}
+        <div className="cuoicung absolute">
+          <div className="vechungtoi">
+            <a
+              href="https://www.facebook.com/photo?fbid=122102938130567799&set=pcb.122102949434567799"
+              target="_blank"
+            >
+              Về chúng tôi
+            </a>
+          </div>
+
+          <div className="fanpage">
+            <a
+              href="https://www.facebook.com/profile.php?id=61567033975415"
+              target="_blank"
+            >
+              Facebook
+            </a>
+          </div>
+
+          <div className="diachi">
+            <a
+              href="https://www.google.com/maps/place/Tr%C6%B0%E1%BB%9Dng+%C4%90%E1%BA%A1i+h%E1%BB%8Dc+FPT+H%C3%A0+N%E1%BB%99i/@21.0133225,105.5229,15.25z/data=!4m6!3m5!1s0x3135abc60e7d3f19:0x2be9d7d0b5abcbf4!8m2!3d21.0124167!4d105.5252892!16s%2Fm%2F02rsytm?entry=ttu&g_ep=EgoyMDI0MTAyMy4wIKXMDSoASAFQAw%3D%3D"
+              target="_blank"
+            >
+              Trường Đại Học FPT, Khu Công Nghệ Cao Hòa Lạc, km 29, Đại lộ,
+              Thăng Long, Hà Nội, Việt Nam
+            </a>
+          </div>
+
+          <div className="sdt absolute">
+            <h1>+84 985745613</h1>
+          </div>
+          
+          <div className="gmail absolute">
+            <h1>vutruthongtinhola@gmail.com</h1>
+          </div>
+
+          <div className="hinhlogo absolute">
+            <h1 className="font-extrabold mt-3 mb-11 ml-14 font-sans">
+              HolaWeb
+            </h1>
+          </div>
+        </div>
       </div>
     </div>
   );

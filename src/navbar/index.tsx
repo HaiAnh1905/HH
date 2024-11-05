@@ -24,7 +24,7 @@ export default function NavBar() {
           <NavLink to='/'>Trang chủ</NavLink>
           <NavLink to='/tuyenxe'>Tuyến Xe</NavLink>
           <NavLink to='/anuong'>Ăn uống</NavLink>
-          <NavLink to='/'>Phòng Trọ</NavLink>
+          <NavLink to='/nhatro'>Phòng Trọ</NavLink>
           <NavLink to='/vuichoi'>Vui chơi</NavLink>
           <NavLink to='/fptu'>FPTU</NavLink>
         </ul>

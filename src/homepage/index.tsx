@@ -132,7 +132,7 @@ export default function HomePage() {
               Cung cấp cho các bạn khu vực phòng trọ uy tín xung quanh đất Hòa
               Lạc
             </div>
-            <NavLink onClick={toTop} to="/" className="more z-20">Thêm</NavLink>
+            <NavLink onClick={toTop} to="/nhatro" className="more z-20">Thêm</NavLink>
           </div>
           {/* Vui chơi */}
           <div

@@ -6,6 +6,7 @@ import FPTU from './fptu/index.tsx'
 import EntertainmentPage from './playground/index.tsx'
 import BusRoutes from './tuyenxe/index.tsx'
 import FoodStore from './food/index.tsx'
+import Motel from './nhatro/index.tsx'
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
           <Route path='/vuichoi' element={<EntertainmentPage />}></Route>
           <Route path='/tuyenxe' element={<BusRoutes />}></Route>
           <Route path='/anuong' element={<FoodStore />}></Route>
+          <Route path='/nhatro' element={<Motel />}></Route>
         </Routes>
         {/* <PopupDetail /> */}
         {/* THANH MAU ĐEN Ở CUỐI CÙNG */}
