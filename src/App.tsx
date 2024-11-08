@@ -6,7 +6,7 @@ import EntertainmentPage from './playground/index.tsx'
 import BusRoutes from './tuyenxe/index.tsx'
 import FoodStore from './food/index.tsx'
 import Motel from './nhatro/index.tsx'
-import LogoGroup from '../public/LogoWWeb.jpg';
+// import LogoGroup from '../public/LogoWWeb.jpg';
 import './App.css'
 
 function App() {
