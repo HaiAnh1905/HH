@@ -13,10 +13,10 @@ import "./style.scss";
 // }
 
 export default function BusRoutes() {
-  const listInfo =[
+  const listInfo = [
     {
       name: "CHUYẾN XE",
-      img: "https://scontent.fhan2-5.fna.fbcdn.net/v/t39.30808-6/319015218_3233095813609679_5832714119388566604_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGj-ZnCxbvSET7iE6_oryYQ_RKnkQvCPff9EqeRC8I993teG8GpSmI4FbR7LPBPe00SnOfR-sa_Uf46SZCBqISu&_nc_ohc=jE_QPJTO0CEQ7kNvgGwgCQe&_nc_ht=scontent.fhan2-5.fna&_nc_gid=Aa9HshFTDjHybnPoefX0UHz&oh=00_AYBw_UzSaWqjbQ2MDGoktpi3a1VQopiJCtfi4qN8roIylQ&oe=671F9D67",
+      img: "https://scontent.fhan14-1.fna.fbcdn.net/v/t39.30808-6/465214783_1393743691603685_4016256198114440301_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=aa7b47&_nc_eui2=AeFCTNgCFIaYZYKUoR734ricE8Lfbgs0g8ATwt9uCzSDwLYsEr7hVBamXDrUdiv4CgL9NNuJoTvyY4u5dz8DbomV&_nc_ohc=mhsdmBp735wQ7kNvgFQ-EiV&_nc_zt=23&_nc_ht=scontent.fhan14-1.fna&_nc_gid=AEfuCntzTjSLdonFbA44VzT&oh=00_AYCT2bvNxEpW5UsmK6BI22XRElOVPYO1ePQHwrxNHB5Xag&oe=67300502",
     },
     {
       name: "BẾN XE",
@@ -28,9 +28,9 @@ export default function BusRoutes() {
     },
     {
       name: "VÉ XE",
-      img: "https://scontent.fhan14-1.fna.fbcdn.net/v/t39.30808-6/435712902_493760803162531_2851977825187482960_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGnqL4QSS843F6tiqDgKhZwB3055Vd6EQIHfTnlV3oRAt3KxzjvvLcWDawSldKPbdK4OFJ4LEzOCufFMlbAH9gQ&_nc_ohc=Ym7zaCrvEu4Q7kNvgGZpj_6&_nc_ht=scontent.fhan14-1.fna&_nc_gid=Au7o_-W8BzD_QMKKHUhIHjM&oh=00_AYDAXxZE_3sUzzORNN16KJpHuoaExbogDxfUFQui0mt49A&oe=671FC6E1",
+      img: "https://scontent-lax3-2.xx.fbcdn.net/v/t39.30808-6/465182563_645128068025803_3650419912037658188_n.jpg?stp=cp6_dst-jpg&_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEtB6vBya8KUIYjXEAi8va3zKz8RYi--LXMrPxFiL74tcIgEHrUwCiTsn-StoUVgfGmIAoQvlGp06oQm41W4VQX&_nc_ohc=y4Fv4tcUJAIQ7kNvgFR8x4Z&_nc_zt=23&_nc_ht=scontent-lax3-2.xx&_nc_gid=AG8mAutGEuo_TMDAZU2v5tt&oh=00_AYDrjwZ9UUYtQz96dqD1g-CQwP-MRaEFBJnN9QBsn9KFJA&oe=6732905F",
     },
-  ]
+  ];
   return (
     <div className="tuyenxe relative">
       <div
@@ -106,6 +106,9 @@ export default function BusRoutes() {
 
             {/* BUS74 */}
             <div className="muiten74 absolute"></div>
+            <div className="bus74 absolute">
+              <h1 className="font-extrabold font-sans absolute">BUS74</h1>
+            </div>
             <div className="nenlotrinh74 absolute"></div>
             <div className="lotrinh74 absolute">
               <h1 className="font-mono">
@@ -123,14 +126,13 @@ export default function BusRoutes() {
               </h1>
             </div>
             <div className="nen74 absolute"></div>
-            <div className="hinh74 absolute">
-              <h1 className="text-5xl font-extrabold mt-1 mb-11 ml-80 font-sans">
-                BUS74
-              </h1>
-            </div>
+            <div className="hinh74 absolute"></div>
 
             {/* BUS88 */}
             <div className="muiten88 absolute"></div>
+            <div className="bus88 absolute">
+              <h1 className="font-extrabold font-sans absolute">BUS88</h1>
+            </div>
             <div className="nenlotrinh88 absolute"></div>
             <div className="lotrinh88 absolute">
               <h1 className="font-mono">
@@ -147,14 +149,13 @@ export default function BusRoutes() {
               </h1>
             </div>
             <div className="nen88 absolute"></div>
-            <div className="hinh88 absolute">
-              <h1 className="text-5xl font-extrabold mt-1 mb-11 ml-80 font-sans">
-                BUS88
-              </h1>
-            </div>
+            <div className="hinh88 absolute"></div>
 
             {/* BUS119 */}
             <div className="muiten119 absolute"></div>
+            <div className="bus119 absolute">
+              <h1 className="font-extrabold font-sans absolute">BUS119</h1>
+            </div>
             <div className="nenlotrinh119 absolute"></div>
             <div className="lotrinh119 absolute">
               <h1 className="font-mono">
@@ -172,14 +173,13 @@ export default function BusRoutes() {
               </h1>
             </div>
             <div className="nen119 absolute"></div>
-            <div className="hinh119 absolute">
-              <h1 className="text-5xl font-extrabold mt-1 mb-11 ml-80 font-sans">
-                BUS119
-              </h1>
-            </div>
+            <div className="hinh119 absolute"></div>
 
             {/* BUS107 */}
             <div className="muiten107 absolute"></div>
+            <div className="bus107 absolute">
+              <h1 className="font-extrabold font-sans absolute">BUS107</h1>
+            </div>
             <div className="nenlotrinh107 absolute"></div>
             <div className="lotrinh107 absolute">
               <h1 className="font-mono">
@@ -199,14 +199,13 @@ export default function BusRoutes() {
               </h1>
             </div>
             <div className="nen107 absolute"></div>
-            <div className="hinh107 absolute">
-              <h1 className="text-5xl font-extrabold mt-1 mb-11 ml-80 font-sans">
-                BUS107
-              </h1>
-            </div>
+            <div className="hinh107 absolute"></div>
 
             {/* BUS117 */}
             <div className="muiten117 absolute"></div>
+            <div className="bus117 absolute">
+              <h1 className="font-extrabold font-sans absolute">BUS117</h1>
+            </div>
             <div className="nenlotrinh117 absolute"></div>
             <div className="lotrinh117 absolute">
               <h1 className="font-mono">
@@ -224,11 +223,7 @@ export default function BusRoutes() {
               </h1>
             </div>
             <div className="nen117 absolute"></div>
-            <div className="hinh117 absolute">
-              <h1 className="text-5xl font-extrabold mt-1 mb-11 ml-80 font-sans">
-                BUS117
-              </h1>
-            </div>
+            <div className="hinh117 absolute"></div>
           </div>
           {/* MẤY CÁI CHỮ BÊN DƯỚI Ở CÁI BÊN TRÊN */}
           <div className="stitle absolute">
@@ -243,7 +238,7 @@ export default function BusRoutes() {
         </div>
 
         {/* NỀN VÀNG BÊN DƯỚI */}
-        <div className="nenvang absolute">
+        <div className="nenvang block">
           <div className="anhnenvang absolute"></div>
           {/* CÁI HÌNH VÀNG NHẠT BÊN DƯỚI */}
           <div className="yellow absolute"></div>
@@ -386,51 +381,6 @@ export default function BusRoutes() {
           </div>
           <div className="nenapp4 absolute"></div>
           <div className="hinhapp4 absolute"></div>
-        </div>
-
-        {/* THANH MAU ĐEN Ở CUỐI CÙNG */}
-        <div className="cuoicung absolute">
-          <div className="vechungtoi">
-            <a
-              href="https://www.facebook.com/photo?fbid=122102938130567799&set=pcb.122102949434567799"
-              target="_blank"
-            >
-              Về chúng tôi
-            </a>
-          </div>
-
-          <div className="fanpage">
-            <a
-              href="https://www.facebook.com/profile.php?id=61567033975415"
-              target="_blank"
-            >
-              Facebook
-            </a>
-          </div>
-
-          <div className="diachi">
-            <a
-              href="https://www.google.com/maps/place/Tr%C6%B0%E1%BB%9Dng+%C4%90%E1%BA%A1i+h%E1%BB%8Dc+FPT+H%C3%A0+N%E1%BB%99i/@21.0133225,105.5229,15.25z/data=!4m6!3m5!1s0x3135abc60e7d3f19:0x2be9d7d0b5abcbf4!8m2!3d21.0124167!4d105.5252892!16s%2Fm%2F02rsytm?entry=ttu&g_ep=EgoyMDI0MTAyMy4wIKXMDSoASAFQAw%3D%3D"
-              target="_blank"
-            >
-              Trường Đại Học FPT, Khu Công Nghệ Cao Hòa Lạc, km 29, Đại lộ,
-              Thăng Long, Hà Nội, Việt Nam
-            </a>
-          </div>
-
-          <div className="sdt absolute">
-            <h1>+84 985745613</h1>
-          </div>
-          
-          <div className="gmail absolute">
-            <h1>vutruthongtinhola@gmail.com</h1>
-          </div>
-
-          <div className="hinhlogo absolute">
-            <h1 className="font-extrabold mt-3 mb-11 ml-14 font-sans">
-              HolaWeb
-            </h1>
-          </div>
         </div>
       </div>
     </div>

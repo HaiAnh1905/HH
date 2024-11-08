@@ -67,7 +67,7 @@
             padding: 0.9rem 0.9rem;
             width: 97.5%;
             box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-            grid-template-columns: auto auto;
+            grid-template-columns: 20% 70%;
             .img{
               background-size: cover;
               width: 15rem;
@@ -77,10 +77,10 @@
             .content-text{
               box-sizing: border-box;
               .locationName{
-                width: 50rem;
+                width: 100%;
               }
               .locationDetail{
-                width: 45rem;
+                width: 100%;
               }
               .more{
                 border-radius: 0.4rem;

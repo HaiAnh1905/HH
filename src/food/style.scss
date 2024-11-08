@@ -35,7 +35,7 @@
     }
     .tabs-content-wrapper {
       width: 100%;
-      .disable{
+      .disable {
         display: none;
       }
       .content-wrapper {
@@ -45,34 +45,34 @@
           border-radius: 0.3rem;
           box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
           padding: 0.5rem;
-          .img {
-            border-radius: 0.3rem;
+          .outside {
             width: 23rem;
-            height: 14rem;
-            background-position: 50%;
-            background-size: cover;
+            .img {
+              border-radius: 0.3rem;
+              width: 23rem;
+              height: 20rem;
+              background-position: 50%;
+              background-size: cover;
+            }
+            .discription {
+              width: 22rem;
+            }
+            .readmore {
+              color: white;
+              border-radius: 0.2rem;
+              background-color: #e0702b;
+              padding: 0.3rem 1.2rem;
+              width: fit-content;
+            }
           }
-          .discription {
-            width: 22rem;
-          }
-          .pricing {
-            color: rgb(102, 102, 102);
-          }
-          .readmore {
-            color: white;
-            border-radius: 0.2rem;
-            background-color: #e0702b;
-            padding: 0.3rem 1.2rem;
-            width: fit-content;
-          }
-          .popup-wrapper{
+          .popup-wrapper {
             height: fit-content;
           }
           .popup-content-wrapper {
             grid-template-columns: auto auto;
             .swiperz {
               .mySwiper {
-                width: 20rem;
+                width: 22rem;
                 height: 20rem;
               }
               .mySwiper2 {

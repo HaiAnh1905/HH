@@ -20,7 +20,7 @@ export default function Slider(sliderUrl: sliderArrayI) {
         margin: "0 auto",
       }}
     >
-      <div className="text absolute text-white z-10">
+      <div className="text absolute text-white z-10 prevent-select text-center">
         <h1 className="text-4xl m-auto font-semibold mb-3 text-center">
           {sliderUrl.sliderUrl.title}
         </h1>
@@ -28,7 +28,7 @@ export default function Slider(sliderUrl: sliderArrayI) {
           {sliderUrl.sliderUrl.sentence}
         </div>
       </div>
-      <div className="op absolute opacity-50 w-full h-full"></div>
+      <div className="op absolute opacity-65 w-full h-full"></div>
       <img className="slider-img" src={`${sliderUrl.sliderUrl.img}`} alt="" />
     </div>
   );

@@ -6,17 +6,17 @@
       background-color: rgb(4, 101, 39);
       width: 100%;
       background-size: cover;
-      height: 370rem;
+      height: 400%;
     }
 
     .anhbus {
       //cái ảnh xe bus nhỏ nhỏ để trang trí
       background-image: url("https://i.imgur.com/3jRABMR.png");
-      width: 19rem;
-      height: 19rem;
+      width: 100%;
+      height: 50%;
       background-size: cover;
       border-radius: 1%;
-      transform: translate(19rem, 28rem);
+      transform: translate(150%, 120%);
     }
 
     .nentuyenxe {
@@ -36,10 +36,10 @@
       background-color: rgb(96, 222, 104);
       color: rgb(54, 54, 54);
       border-radius: 0.5rem;
-      transform: translate(-2rem, 0rem);
+      transform: translate(-6%, 0%);
       background-size: cover;
-      width: 35rem;
-      height: 6rem;
+      width: 200%;
+      height: 18%;
     }
 
     .title2 {
@@ -47,10 +47,10 @@
       background-color: rgb(165, 223, 169);
       color: rgb(54, 54, 54);
       border-radius: 0.5rem;
-      transform: translate(0rem, 58rem);
+      transform: translate(0%, 1300%);
       background-size: cover;
-      width: 34rem;
-      height: 4.4rem;
+      width: 200%;
+      height: 12.4%;
     }
 
     .trangtri1 {
@@ -58,10 +58,10 @@
       background-color: rgb(58, 162, 65);
       color: rgb(54, 54, 54);
       border-radius: 1%;
-      transform: translate(51rem, 77rem);
+      transform: translate(200%, 115%);
       background-size: cover;
-      width: 18rem;
-      height: 50rem;
+      width: 150%;
+      height: 170%;
     }
 
     .trangtri2 {
@@ -69,10 +69,10 @@
       background-color: rgb(49, 196, 59);
       color: rgb(54, 54, 54);
       border-radius: 1rem;
-      transform: translate(48rem, 111rem);
+      transform: translate(180%, 170%);
       background-size: cover;
-      width: 18rem;
-      height: 62rem;
+      width: 150%;
+      height: 170%;
     }
 
     .trangtri3 {
@@ -80,10 +80,10 @@
       background-color: rgb(90, 203, 90);
       color: rgb(54, 54, 54);
       border-radius: 1rem;
-      transform: translate(45rem, 148rem);
+      transform: translate(160%, 236.5%);
       background-size: cover;
-      width: 18rem;
-      height: 58rem;
+      width: 150%;
+      height: 170%;
     }
 
     .stitle2 {
@@ -92,14 +92,10 @@
       color: rgb(54, 54, 54);
       border-top-right-radius: 1rem;
       border-bottom-right-radius: 1rem;
-      transform: translate(19rem, -1.9rem);
+      transform: translate(30%, -1.3%);
       background-size: cover;
-      width: 38rem;
-      height: 143.65rem;
-      p {
-        width: 40rem;
-        left: 60rem;
-      }
+      width: 140%;
+      height: 3220%;
     }
 
     .stitle {
@@ -107,10 +103,10 @@
       background-color: rgb(101, 136, 104);
       color: rgb(0, 0, 0);
       border-radius: 0.5rem;
-      transform: translate(-2rem, 9rem);
+      transform: translate(-6%, 50%);
       background-size: cover;
-      width: 26rem;
-      height: 17rem;
+      width: 150%;
+      height: 45%;
     }
     .intro {
       //cái hình chữ nhật ở bên dưới của cái đầu tiên
@@ -120,12 +116,8 @@
       background-size: cover;
       top: 5.5%;
       left: 5%;
-      width: 16rem;
-      height: 36rem;
-      p {
-        width: 20rem;
-        left: 40rem;
-      }
+      width: 19%;
+      height: 58%;
     }
 
     .intro2 {
@@ -133,47 +125,42 @@
       background-color: rgb(143, 187, 146);
       color: rgb(54, 54, 54);
       border-radius: 0.5rem;
-      transform: translate(-2rem, 55rem);
+      transform: translate(-10%, 34.77%);
       background-size: cover;
-      width: 22rem;
-      height: 151rem;
-      p {
-        width: 100rem;
-        left: 60rem;
-      }
+      width: 120%;
+      height: 425%;
     }
 
     .lists {
       // mấy cái hình tự chuyển
-      top: 88%;
-      left: 34%;
-      transform: translate(13rem, -45.4rem);
+      top: 0%;
+      left: 0%;
+      transform: translate(120%, 5%);
       background-size: cover;
-      width: 35rem;
-      height: 60rem;
+      width: 40%;
+      height: 100%;
       .lists-item {
         font-family: "Roboto", sans-serif;
-        font-size: 2rem /* 20px */;
-        padding-left: 3rem;
-        line-height: 87rem /* 28px */;
+        font-size: 100% /* 20px */;
+        padding-left: 9%;
+        line-height: 100% /* 28px */;
         font-weight: 600;
         display: flex;
         align-items: end;
         justify-content: flex-start;
         background-size: cover;
-        width: 23rem;
+        width: 23%;
         height: 80%;
         border-radius: 0.7rem;
         color: white;
-        transition: ease-in-out 300ms;
       }
 
       .lists-item:hover {
         //hiệu ứng chứ khi di chuột vào
         padding-right: 0rem;
-        font-size: 3rem /* 30px */;
+        font-size: 200% /* 30px */;
         background-size: cover;
-        line-height: 88rem /* 36px */;
+        line-height: 80% /* 36px */;
       }
     }
 
@@ -183,56 +170,68 @@
       background-color: rgb(59, 118, 59);
       color: rgb(0, 0, 0);
       border-radius: 0.5rem;
-      transform: translate(0rem, 2rem);
+      transform: translate(0%, 10%);
       background-size: cover;
-      width: 18rem;
-      height: 18rem;
+      width: 50%;
+      height: 350%;
     }
     .hinh74 {
       // hình 74
-      background-image: url("https://scontent.fhan14-1.fna.fbcdn.net/v/t39.30808-6/373643390_686887706802829_6593300066273874821_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHNxRppdSvvNg8ufALTd01N1z1IYbHzA33XPUhhsfMDfTuFTtKiiDF85pSdY1CvH0s9DPKVg8teatOcS6tG9-lF&_nc_ohc=RVtsgSaFMFgQ7kNvgGHVzdF&_nc_ht=scontent.fhan14-1.fna&_nc_gid=ADb2RkfoZWKpyQdIGIMM2ZA&oh=00_AYCfN7wHBPcu1oVVIwo1M8BrnI_D5pB81ids3-FQ6rs62g&oe=6722B334");
-      width: 17rem;
-      height: 17rem;
+      background-image: url("https://scontent-lax3-2.xx.fbcdn.net/v/t39.30808-6/418563521_430705389468073_4414213726377274277_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeG8jcQp25ibJfzEqZ87hF1FVI6_gViQiFJUjr-BWJCIUlzW2xPMzbcHN0Pi1pGyNpT1VSJvA40bGzHmKDJIBEzV&_nc_ohc=-VkoAHrj4toQ7kNvgHzDHXg&_nc_zt=23&_nc_ht=scontent-lax3-2.xx&_nc_gid=AsbOLTrL8L-YawqDVo-0n2M&oh=00_AYDeNUW00ZXKnCsvivPzn0bkXZUsM-HhtYH1ywi5ulkSzw&oe=67327164");
+      width: 48%;
+      height: 338%;
       background-size: cover;
-      border-radius: 1%;
-      transform: translate(0rem, 2rem);
+      border-radius: 3%;
+      transform: translate(0%, 10.2%);
     }
     .muiten74 {
       // mui ten 74
       background-image: url("https://i.imgur.com/zC8NFDA.png");
-      width: 26rem;
-      height: 9rem;
+      width: 72%;
+      height: 200%;
       background-size: cover;
       border-radius: 0%;
-      transform: translate(10rem, -2.1rem);
+      transform: translate(40%, -21%);
     }
     .thongtin74 {
       // thông tin 74
-      width: 100rem;
-      font-size: 1.4rem;
+      width: 150%;
+      height: 150%;
+      font-size: 120%;
       color: rgb(0, 0, 0);
       text-align: left; //căn lề
       letter-spacing: 1px;
-      transform: translate(20.5rem, 6rem);
+      transform: translate(38%, 86%);
+    }
+    .bus74 {
+      // thông tin 107
+      width: 55%;
+      height: 2.5%;
+      font-size: 250%;
+      color: rgb(54, 54, 54);
+      text-align: left; //căn lề
+      letter-spacing: 1px;
+      transform: translate(98%, 1100%);
     }
     .nenlotrinh74 {
       // cái nền
       background-color: rgb(149, 212, 149);
       color: rgb(54, 54, 54);
       border-radius: 1.5rem;
-      transform: translate(20rem, 14rem);
+      transform: translate(47%, 150%);
       background-size: cover;
-      width: 36rem;
-      height: 9rem;
+      width: 115%;
+      height: 190%;
     }
     .lotrinh74 {
       // lo trinh 74
-      width: 35rem;
-      font-size: 1.1rem;
+      width: 110%;
+      height: 34%;
+      font-size: 100%;
       color: rgb(0, 0, 0);
       text-align: center; //căn lề
       letter-spacing: 0px;
-      transform: translate(20.5rem, 15.5rem);
+      transform: translate(50%, 900%);
     }
 
     //BUS88
@@ -241,56 +240,68 @@
       background-color: rgb(59, 118, 59);
       color: rgb(0, 0, 0);
       border-radius: 0.5rem;
-      transform: translate(0rem, 29rem);
+      transform: translate(0%, 165%);
       background-size: cover;
-      width: 18rem;
-      height: 18rem;
+      width: 50%;
+      height: 350%;
     }
     .hinh88 {
       // hình 88
-      background-image: url("https://scontent.fhan14-3.fna.fbcdn.net/v/t39.30808-6/375460512_686884050136528_6044448746776398162_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeG78orkgX_6opADmBFeia8HzNMuPaLGkUPM0y49osaRQ7pcWdK5-ELuiLUw653IV2pgYfsXAg6QluLlQABbyORU&_nc_ohc=iHWi9C6Lkz0Q7kNvgHiNVhQ&_nc_ht=scontent.fhan14-3.fna&_nc_gid=APq-0ZarrYOwrdKUL9Lwjww&oh=00_AYBpmGSxhdhMlKIeDvHVb6PB_XrkqqPgzaFPjQBqs-PXxw&oe=6722BD78");
-      width: 17rem;
-      height: 17rem;
+      background-image: url("https://scontent-lax3-1.xx.fbcdn.net/v/t39.30808-1/309536072_425620629685152_1602324053176086874_n.jpg?stp=dst-jpg_s720x720&_nc_cat=105&ccb=1-7&_nc_sid=f4b9fd&_nc_eui2=AeFuLUdOQinuiyX1--vFzYt0YAi8QSfx0QZgCLxBJ_HRBnHPN28RzCjtgqTCLN-r5xrYiAZ45HUCsLR1KtAD76Zj&_nc_ohc=zgzWCgcfE2MQ7kNvgF_oKOJ&_nc_zt=24&_nc_ht=scontent-lax3-1.xx&_nc_gid=Aw6jnHT-xGnWzezL4m0Sw8E&oh=00_AYD60HWQfQ9h3A5otacjx4DDUH-WMxxx_iI11rddY6IcuA&oe=673279DF");
+      width: 48%;
+      height: 338%;
       background-size: cover;
-      border-radius: 1%;
-      transform: translate(0rem, 29rem);
+      border-radius: 3%;
+      transform: translate(0%, 171%);
     }
     .muiten88 {
       // mui ten 88
       background-image: url("https://i.imgur.com/zC8NFDA.png");
-      width: 26rem;
-      height: 9rem;
+      width: 72%;
+      height: 200%;
       background-size: cover;
       border-radius: 0%;
-      transform: translate(10rem, 25rem);
+      transform: translate(40%, 250%);
     }
     .thongtin88 {
       // thông tin 88
-      width: 100rem;
-      font-size: 1.4rem;
+      width: 150%;
+      height: 150%;
+      font-size: 120%;
       color: rgb(0, 0, 0);
       text-align: left; //căn lề
       letter-spacing: 1px;
-      transform: translate(20.5rem, 33rem);
+      transform: translate(38%, 447%);
+    }
+    .bus88 {
+      // thông tin 107
+      width: 55%;
+      height: 48.5%;
+      font-size: 250%;
+      color: rgb(54, 54, 54);
+      text-align: left; //căn lề
+      letter-spacing: 1px;
+      transform: translate(98%, 1179%);
     }
     .nenlotrinh88 {
       // cái nền
       background-color: rgb(149, 212, 149);
       color: rgb(54, 54, 54);
       border-radius: 1.5rem;
-      transform: translate(20rem, 41rem);
+      transform: translate(47%, 440%);
       background-size: cover;
-      width: 36rem;
-      height: 9rem;
+      width: 115%;
+      height: 190%;
     }
     .lotrinh88 {
       // lo trinh 88
-      width: 36rem;
-      font-size: 1.1rem;
+      width: 100%;
+      height: 90%;
+      font-size: 110%;
       color: rgb(0, 0, 0);
       text-align: center; //căn lề
       letter-spacing: 0px;
-      transform: translate(20rem, 43rem);
+      transform: translate(60%, 950%);
     }
 
     //BUS119
@@ -299,56 +310,68 @@
       background-color: rgb(59, 118, 59);
       color: rgb(54, 54, 54);
       border-radius: 0.5rem;
-      transform: translate(0rem, 56rem);
+      transform: translate(0%, 318%);
       background-size: cover;
-      width: 18rem;
-      height: 18rem;
+      width: 50%;
+      height: 350%;
     }
     .hinh119 {
       // hình 119
-      background-image: url("https://scontent.fsgn2-7.fna.fbcdn.net/v/t39.30808-6/375312337_686884086803191_4581017966169369433_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeFsR2oxMd8hb_TSYXJ1TYxTFmOHIucDX1kWY4ci5wNfWUXXocNuiPYx7VAp2b4tWp4akvHbijhdK38vhn2-7VFq&_nc_ohc=lgxuL2N2p4EQ7kNvgHjNnd0&_nc_ht=scontent.fsgn2-7.fna&_nc_gid=ANHQovqMgqdUNCFrz76Ohak&oh=00_AYClp5f6Mmlt5mNt_Lb77seuGJD7svSkbuZP8wAu0vcNcg&oe=67236E21");
-      width: 17rem;
-      height: 17rem;
+      background-image: url("https://scontent-lax3-1.xx.fbcdn.net/v/t39.30808-6/461280869_927511896069206_990498537124900241_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeH0dFBcsZTpYd31X4U1jESqQ_iXbEmoGS1D-JdsSagZLUq5YHuiXgOeiwBDhPgWneMOGDGLSjp8KZSGB2FZLRKG&_nc_ohc=My44Wb0DEwwQ7kNvgH2936M&_nc_zt=23&_nc_ht=scontent-lax3-1.xx&_nc_gid=AJuMciLc7rbbeKWIZ67rBOh&oh=00_AYCePBW_zCIIp-Zmi2hbFmmWncyL_z5DTibjBE0a61aVOQ&oe=67329B04");
+      width: 48%;
+      height: 338%;
       background-size: cover;
-      border-radius: 1%;
-      transform: translate(0rem, 56rem);
+      border-radius: 3%;
+      transform: translate(0%, 329.4%);
     }
     .muiten119 {
       // mui ten 119
       background-image: url("https://i.imgur.com/zC8NFDA.png");
-      width: 26rem;
-      height: 9rem;
+      width: 72%;
+      height: 200%;
       background-size: cover;
       border-radius: 0%;
-      transform: translate(10rem, 51.9rem);
+      transform: translate(40%, 518%);
     }
     .thongtin119 {
       // thông tin 119
-      width: 100rem;
-      font-size: 1.4rem;
+      width: 150%;
+      height: 150%;
+      font-size: 120%;
       color: rgb(0, 0, 0);
       text-align: left; //căn lề
       letter-spacing: 1px;
-      transform: translate(20.5rem, 60rem);
+      transform: translate(38%, 801%);
+    }
+    .bus119 {
+      // thông tin 107
+      width: 55%;
+      height: 94%;
+      font-size: 250%;
+      color: rgb(54, 54, 54);
+      text-align: left; //căn lề
+      letter-spacing: 1px;
+      transform: translate(98%, 1179%);
     }
     .nenlotrinh119 {
       // cái nền
       background-color: rgb(149, 212, 149);
       color: rgb(54, 54, 54);
       border-radius: 1.5rem;
-      transform: translate(20rem, 68rem);
+      transform: translate(47%, 720%);
       background-size: cover;
-      width: 36rem;
-      height: 9rem;
+      width: 115%;
+      height: 190%;
     }
     .lotrinh119 {
       // lo trinh 119
-      width: 35rem;
-      font-size: 1.1rem;
+      width: 100%;
+      height: 100%;
+      font-size: 100%;
       color: rgb(0, 0, 0);
       text-align: center; //căn lề
       letter-spacing: 0px;
-      transform: translate(20.3rem, 69rem);
+      transform: translate(60%, 1387%);
     }
 
     //BUS107
@@ -357,56 +380,68 @@
       background-color: rgb(59, 118, 59);
       color: rgb(54, 54, 54);
       border-radius: 0.5rem;
-      transform: translate(0rem, 83rem);
+      transform: translate(0%, 473%);
       background-size: cover;
-      width: 18rem;
-      height: 18rem;
+      width: 50%;
+      height: 350%;
     }
     .hinh107 {
       // hình 107
-      background-image: url("https://scontent.fsgn2-10.fna.fbcdn.net/v/t39.30808-6/373561926_686884096803190_7224857064719609094_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeEd4ANPVQoPgDGgX6MOPvPDbpI1oLOf3otukjWgs5_ei00_sj9bcIp5vNaGKVT0Kl4c7ykaYqw5FGtz9yZksom-&_nc_ohc=H3oC_xz7PC0Q7kNvgGtRttd&_nc_ht=scontent.fsgn2-10.fna&_nc_gid=AP7Z0l_PN06wUAoTtgkqEID&oh=00_AYCCbNgOBdm9zzHdLQVKBfWAwe-v7Cr0r-1ah1dYXixPKA&oe=67236ABF");
-      width: 17rem;
-      height: 17rem;
+      background-image: url("https://scontent-lax3-2.xx.fbcdn.net/v/t1.6435-9/141173082_1740132452831694_1852675543917537417_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEWGM_neVIOOloMWAaZ4ga7_nmXdqsyY2j-eZd2qzJjaKKzxSII3RaopYql_vv4Mx_t_32r-QJ1z_URHpby6CH0&_nc_ohc=tdmkMGMcRPAQ7kNvgEEtwLZ&_nc_zt=23&_nc_ht=scontent-lax3-2.xx&_nc_gid=Ahl9HdG45Sx4bxce1Y_z56z&oh=00_AYDuTh2oOhUHIdmtIhhaYVUjfvNqWGibu7rLXVWvox-Ubg&oe=675415B3");
+      width: 48%;
+      height: 338%;
       background-size: cover;
-      border-radius: 1%;
-      transform: translate(0rem, 83rem);
+      border-radius: 3%;
+      transform: translate(0%, 490%);
     }
     .muiten107 {
       // mui ten 107
       background-image: url("https://i.imgur.com/zC8NFDA.png");
-      width: 26rem;
-      height: 9rem;
+      width: 72%;
+      height: 200%;
       background-size: cover;
       border-radius: 0%;
-      transform: translate(10rem, 78.9rem);
+      transform: translate(40%, 789%);
     }
     .thongtin107 {
       // thông tin 107
-      width: 100rem;
-      font-size: 1.4rem;
+      width: 150%;
+      height: 150%;
+      font-size: 120%;
       color: rgb(0, 0, 0);
       text-align: left; //căn lề
       letter-spacing: 1px;
-      transform: translate(20.5rem, 88rem);
+      transform: translate(38%, 1170%);
+    }
+    .bus107 {
+      // thông tin 107
+      width: 55%;
+      height: 140%;
+      font-size: 250%;
+      color: rgb(54, 54, 54);
+      text-align: left; //căn lề
+      letter-spacing: 1px;
+      transform: translate(98%, 1179%);
     }
     .nenlotrinh107 {
       // cái nền
       background-color: rgb(149, 212, 149);
       color: rgb(54, 54, 54);
       border-radius: 1.5rem;
-      transform: translate(20rem, 96rem);
+      transform: translate(47%, 1015%);
       background-size: cover;
-      width: 36rem;
-      height: 9rem;
+      width: 115%;
+      height: 190%;
     }
     .lotrinh107 {
       // lo trinh 107
-      width: 36rem;
-      font-size: 0.9rem;
+      width: 110%;
+      height: 90%;
+      font-size: 13.5px;
       color: rgb(0, 0, 0);
       text-align: center; //căn lề
       letter-spacing: 0px;
-      transform: translate(20rem, 97rem);
+      transform: translate(52%, 2150%);
     }
 
     //BUS117
@@ -415,59 +450,69 @@
       background-color: rgb(59, 118, 59);
       color: rgb(54, 54, 54);
       border-radius: 0.5rem;
-      transform: translate(0rem, 111rem);
+      transform: translate(0%, 633%);
       background-size: cover;
-      width: 18rem;
-      height: 18rem;
+      width: 50%;
+      height: 350%;
     }
     .hinh117 {
       // hình 117
-      background-image: url("https://scontent.fsgn2-10.fna.fbcdn.net/v/t39.30808-6/373580207_686884120136521_8092707870195601125_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGGkg7b6bLl82105WsBqlCg9yYmpaNa1SP3Jialo1rVI3hSi0ZvCIRealGTx-pn_5kxWbhuOVSe-EHWIXNpn5TH&_nc_ohc=3mT0Ys49-BMQ7kNvgH-fVT9&_nc_ht=scontent.fsgn2-10.fna&_nc_gid=Arnb8JDV89JtGmheqdBunZM&oh=00_AYBW6oQJttJJlGLiWgr0cOJ-0Y3q0W5b9sWCwK5Qs-iUzA&oe=67239A3F");
-      width: 17rem;
-      height: 17rem;
+      background-image: url("https://i.ytimg.com/vi/rBffIIBa4Ec/maxresdefault.jpg");
+      width: 48%;
+      height: 338%;
       background-size: cover;
-      border-radius: 1%;
-      transform: translate(0rem, 111rem);
+      border-radius: 3%;
+      transform: translate(0%, 655.5%);
     }
     .muiten117 {
       // mui ten 117
       background-image: url("https://i.imgur.com/zC8NFDA.png");
-      width: 26rem;
-      height: 9rem;
+      width: 72%;
+      height: 200%;
       background-size: cover;
       border-radius: 0%;
-      transform: translate(10rem, 106.9rem);
+      transform: translate(40%, 1068%);
     }
     .thongtin117 {
       // thông tin 117
-      width: 100rem;
-      font-size: 1.4rem;
+      width: 150%;
+      height: 150%;
+      font-size: 120%;
       color: rgb(0, 0, 0);
       text-align: left; //căn lề
       letter-spacing: 1px;
-      transform: translate(20.5rem, 116rem);
+      transform: translate(38%, 1540%);
+    }
+    .bus117 {
+      // thông tin 107
+      width: 55%;
+      height: 187%;
+      font-size: 250%;
+      color: rgb(54, 54, 54);
+      text-align: left; //căn lề
+      letter-spacing: 1px;
+      transform: translate(98%, 1179%);
     }
     .nenlotrinh117 {
       // cái nền
       background-color: rgb(149, 212, 149);
       color: rgb(54, 54, 54);
       border-radius: 1.5rem;
-      transform: translate(20rem, 124rem);
+      transform: translate(47%, 1300%);
       background-size: cover;
-      width: 36rem;
-      height: 9rem;
+      width: 115%;
+      height: 190%;
     }
     .lotrinh117 {
       // lo trinh 117
-      width: 30rem;
-      font-size: 1.1rem;
+      width: 100%;
+      height: 120%;
+      font-size: 100%;
       color: rgb(0, 0, 0);
       text-align: center; //căn lề
       letter-spacing: 0px;
-      transform: translate(22.3rem, 125rem);
+      transform: translate(62%, 2060%);
     }
-
-
 
     .nenvang {
       //nền màu vàng
@@ -476,13 +521,13 @@
       border-radius: 1rem;
       transform: translate(0%, 136%);
       background-size: cover;
-      height: 158rem;
+      height: 260%;
       width: 100%;
     }
 
     .anhnenvang {
       // cái hình nền oto
-      background-image: url("https://scontent.fhan14-1.fna.fbcdn.net/v/t39.30808-6/313414931_2140628549458132_3916988482929553963_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHDJKb1ClSvLyLRx_eZQin5dqDeMhzU8rV2oN4yHNTytd2CbOMXMXg6AOwfwe0wnMv-IJeVexF49fFmrkPtRuZ_&_nc_ohc=70HSBPkWP10Q7kNvgHN6c-9&_nc_zt=23&_nc_ht=scontent.fhan14-1.fna&_nc_gid=A6K4oXzZNzzHaU1AziFoiUb&oh=00_AYBhRrKQX7ueXbU5KyKRarLYiDsThbN7gIuA2zgqMF5m2g&oe=672ABD58");
+      background-image: url("https://scontent-lax3-1.xx.fbcdn.net/v/t39.30808-6/458495217_912386467581749_4345322354393478955_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=aa7b47&_nc_eui2=AeHPSesF4RiAd3Bu_4PhCC1kzNBKs4ENntfM0EqzgQ2e1_lkzc5MkJPInpQVY_1PwgS28ZKtD9DwyEgDvUw3jNHx&_nc_ohc=63NecGU_DiwQ7kNvgEXJyGw&_nc_zt=23&_nc_ht=scontent-lax3-1.xx&_nc_gid=AArxWgXwIAOwPkDXd0BEFMS&oh=00_AYAvi-TGLFaqNow6a-hi_erEq44subsBrU-RstTCkmbFEA&oe=67329595");
       width: 100%;
       height: 45%;
       opacity: 0.23;
@@ -490,7 +535,7 @@
       background-size: cover;
       transform: translate(0rem, 0rem);
     }
-    
+
     .title3 {
       //cái title ở bên trên
       background-color: rgb(255, 183, 0);
@@ -663,12 +708,12 @@
       a:visited {
         color: rgb(182, 233, 0);
       }
-      
+
       /* mouse over link */
       a:hover {
         color: rgb(166, 191, 0);
       }
-      
+
       /* selected link */
       a:active {
         color: rgb(43, 0, 255);
@@ -725,12 +770,12 @@
       a:visited {
         color: rgb(0, 208, 62);
       }
-      
+
       /* mouse over link */
       a:hover {
         color: rgb(29, 126, 0);
       }
-      
+
       /* selected link */
       a:active {
         color: rgb(43, 0, 255);
@@ -787,12 +832,12 @@
       a:visited {
         color: rgb(255, 145, 0);
       }
-      
+
       /* mouse over link */
       a:hover {
         color: rgb(191, 60, 0);
       }
-      
+
       /* selected link */
       a:active {
         color: rgb(43, 0, 255);
@@ -847,14 +892,14 @@
     }
     .nenlinkapp4:hover {
       a:visited {
-        color: rgb(0, 255, 229);
+        color: rgb(55, 0, 255);
       }
-      
+
       /* mouse over link */
       a:hover {
-        color: rgb(0, 184, 163);
+        color: rgb(0, 184, 25);
       }
-      
+
       /* selected link */
       a:active {
         color: rgb(43, 0, 255);
@@ -866,7 +911,7 @@
       background-color: rgb(34, 34, 34);
       background-size: cover;
       transform: translate(0%, 2400%);
-      width: 100%;
+      max-width: 100%;
       height: 15rem;
     }
     .vechungtoi {
@@ -885,7 +930,7 @@
       color: rgb(225, 225, 225);
       text-align: left; //căn lề
       letter-spacing: 0px;
-      transform: translate(45rem, 4.5rem)
+      transform: translate(45rem, 4.5rem);
     }
     .diachi {
       width: 30rem;
@@ -894,7 +939,7 @@
       color: rgb(225, 225, 225);
       text-align: left; //căn lề
       letter-spacing: 0px;
-      transform: translate(2rem, 4rem)
+      transform: translate(2rem, 4rem);
     }
     .sdt {
       width: 33rem;
@@ -912,7 +957,7 @@
       letter-spacing: 0px;
       transform: translate(2rem, 5rem);
     }
-    .hinhlogo{
+    .hinhlogo {
       background-image: url("https://scontent.fhan2-3.fna.fbcdn.net/v/t39.30808-1/462494364_122097266150567799_5322384466882477043_n.jpg?stp=cp6_dst-jpg_s720x720&_nc_cat=108&ccb=1-7&_nc_sid=f4b9fd&_nc_eui2=AeETQ47MYry3C171yJn9WU1uaBzwzO3sZLBoHPDM7exksFkNPrcBhjPPqB8rIqxC_oTQZG-9EiYszoBiqgr6KCqF&_nc_ohc=TSNALvOd1mUQ7kNvgFGfCVb&_nc_zt=24&_nc_ht=scontent.fhan2-3.fna&_nc_gid=AHyfI_saKWlr6hBNhABQkMQ&oh=00_AYDDSrvs19qPInmfb9Od303_779mnlhqcfT0Zc06Hsb2Qw&oe=6724F9E0");
       width: 3rem;
       height: 3rem;
@@ -922,8 +967,5 @@
       border-radius: 50%;
       transform: translate(2rem, -4rem);
     }
-
-
-
   }
 }

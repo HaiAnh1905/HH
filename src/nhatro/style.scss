@@ -1,225 +1,223 @@
 .playPage {
-    .nenphongtro {
-      background-image: url(https://img.freepik.com/free-vector/green-gradient-background-modern-design-wave-shape_343694-2463.jpg);
-      background-size: cover;
-      height: 30rem;
-      .title {
-        width: 40rem;
-        button {
-          padding: 0.3rem 1.2rem;
-          background-color: #ff8f4a;
-          border-radius: 0.5rem;
-          transform: translate(0rem, -1rem);
-        }
-        h1{
-            color: #dcdcdc;
-        }
+  .nenphongtro {
+    background-image: url(https://img.freepik.com/free-vector/green-gradient-background-modern-design-wave-shape_343694-2463.jpg);
+    background-size: cover;
+    height: 30rem;
+    .title {
+      width: 40rem;
+      button {
+        padding: 0.3rem 1.2rem;
+        background-color: #ff8f4a;
+        border-radius: 0.5rem;
+        transform: translate(0rem, -1rem);
       }
-      .stitle {
-        background-color: #030032;
-        width: 43rem;
-        height: 16rem;
-        transform: translate(-11.5rem, -2.5rem);
-        border-radius: 1rem;
-        opacity: 0.5;
-      }
-      .img {
-        background-image: url(https://enhome.vn/wp-content/uploads/2022/02/thiet-ke-phong-tro-20m2-1.jpg);
-        background-size: cover;
-        height: 15rem;
-        border: 3px solid rgb(51, 51, 51);
-        width: 15rem;
-        transform: translate(5rem, -5.5rem);
-        // border: 1px solid #E0702B;
-        border-radius: 1rem;
-      }
-      .img2 {
-        background-image: url(https://wallpapers.com/images/featured/apartment-bbiy2mat3yd31d3t.jpg);
-        background-size: cover;
-        height: 15rem;
-        border: 3px solid rgb(51, 51, 51);
-        width: 15rem;
-        transform: translate(-10rem, 11rem);
-        // border: 1px solid #E0702B;
-        border-radius: 1rem;
-      }
-      .img3 {
-        background-image: url(https://www.redfin.com/blog/wp-content/uploads/2022/07/Wallpaper-in-the-kitchen.jpg);
-        background-size: cover;
-        height: 15rem;
-        border: 3px solid rgb(51, 51, 51);
-        width: 15rem;
-        transform: translate(-5rem, -10rem);
-        // border: 1px solid #E0702B;
-        border-radius: 1rem;
+      h1{
+          color: #dcdcdc;
       }
     }
-    .swrapper-body {
-      background-color: #818181;
-      .tabs-wrapper {
-        width: 80%;
-        background-color: #545454;
-        .block-tabs {
-          border-bottom: 1.3px solid rgb(255, 255, 255);
-          transform: translate(0rem, 2rem);
-          color: #dcdcdc;
-          .tabs {
-            border: 1px solid rgb(255, 255, 255);
-            padding: 0.2rem 1.2rem;
-            transform: translate(1rem, -0.2rem);
-          }
-          .active-tabs {
-            color: #e0702b;
-          }
-        }
-        .content-tabs {
-          width: 100%;
-          padding: 1.3rem 0.7rem;
-          box-shadow: rgb(0, 0, 0) 0px 0px 3px 0px,
-            rgb(102, 102, 102) 0px 0px 0px 0px;
-          .disable {
-            display: none;
-          }
-          .search-content {
-            input {
-              background-color: #dcdcdc;
-              display: block;
-              transform: translate(33.6rem, 0.6rem);
-              width: 40%;
-              border-radius: 0.2rem;
-            }
-            input:focus {
-              outline: none;
-            }
-            .searchOutlined {
-              box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
-                rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-              width: 2rem;
-              height: 2rem;
-              transform: translate(6rem, 0.8rem);
-              border-radius: 100%;
-              background-color: white;
-            }
-          }
-          .content-wrapper {
-            .thenhatro{
-              background-color: rgb(36, 36, 36);
-              border-radius: 0.2rem;
-              padding: 0.9rem 0.9rem;
-              border: 3px solid #ff9101;
-              grid-template-columns: auto auto;
-              margin-bottom: 3rem;
-              width: 97.5%;
-              box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-              .hinh{
-                background-size: cover;
-                width: 15rem;
-                border: 2px solid rgb(167, 139, 0);
-                height: 15rem;
-                border-radius: 0.4rem;
-              }
-              .danhgia{
-                transform: translate(17rem, 2rem);
-                width: 10rem;
-                
-              }
-              .mota{
-                font-size: 1.1rem;
-                color: #dcdcdc;
-                transform: translate(0rem, 1.5rem);
-                width: 40rem;
-                }
-              .tentro{
-                  color: #eaae0b;
-                }
-              .khoangcach{
-                font-size: 1.1rem;
-                  color: #dcdcdc;
-                  transform: translate(0rem, 3.5rem);
-                }
-              .diachi{
-                font-size: 1.1rem;
-                color: #dcdcdc;
-                  transform: translate(0rem, 0.5rem);
-                }
-              .xemthem{
-                  border-radius: 0.4rem;  
-                  background-color: #e0702b;
-                  padding: 0.3rem 1.4rem;
-                  transform: translate(30rem, 0rem);
-                }
-              }
-            }
-            
-
-            
-            .cuoicung {
-              //cái mau den cuoi cùng
-              background-color: rgb(0, 0, 0);
-              background-size: cover;
-              transform: translate(-10.9%, 8%);
-              width: 100%;
-              height: 15rem;
-            }
-            .vechungtoi {
-              width: 33rem;
-              text-decoration: underline;
-              font-size: 1rem;
-              color: rgb(225, 225, 225);
-              text-align: left; //căn lề
-              letter-spacing: 0px;
-              transform: translate(45rem, 3rem);
-            }
-            .fanpage {
-              width: 33rem;
-              text-decoration: underline;
-              font-size: 1rem;
-              color: rgb(225, 225, 225);
-              text-align: left; //căn lề
-              letter-spacing: 0px;
-              transform: translate(45rem, 4.5rem)
-            }
-            .diachi {
-              width: 30rem;
-              text-decoration: underline;
-              font-size: 1rem;
-              color: rgb(225, 225, 225);
-              text-align: left; //căn lề
-              letter-spacing: 0px;
-              transform: translate(2rem, 4rem)
-            }
-            .sdt {
-              width: 33rem;
-              font-size: 1rem;
-              color: rgb(225, 225, 225);
-              text-align: left; //căn lề
-              letter-spacing: 0px;
-              transform: translate(2rem, 7rem);
-            }
-            .gmail {
-              width: 33rem;
-              font-size: 1rem;
-              color: rgb(225, 225, 225);
-              text-align: left; //căn lề
-              letter-spacing: 0px;
-              transform: translate(2rem, 5rem);
-            }
-            .hinhlogo{
-              background-image: url("https://scontent.fhan2-3.fna.fbcdn.net/v/t39.30808-1/462494364_122097266150567799_5322384466882477043_n.jpg?stp=cp6_dst-jpg_s720x720&_nc_cat=108&ccb=1-7&_nc_sid=f4b9fd&_nc_eui2=AeETQ47MYry3C171yJn9WU1uaBzwzO3sZLBoHPDM7exksFkNPrcBhjPPqB8rIqxC_oTQZG-9EiYszoBiqgr6KCqF&_nc_ohc=TSNALvOd1mUQ7kNvgFGfCVb&_nc_zt=24&_nc_ht=scontent.fhan2-3.fna&_nc_gid=AHyfI_saKWlr6hBNhABQkMQ&oh=00_AYDDSrvs19qPInmfb9Od303_779mnlhqcfT0Zc06Hsb2Qw&oe=6724F9E0");
-              width: 3rem;
-              height: 3rem;
-              font-size: 1.4rem;
-              color: antiquewhite;
-              background-size: cover;
-              border-radius: 50%;
-              transform: translate(2rem, -4rem);
-            }
-          }
-        }
-      }
-    
-    .orange {
-      color: #e02b2b;
+    .stitle {
+      background-color: #030032;
+      width: 43rem;
+      height: 16rem;
+      transform: translate(-11.5rem, -2.5rem);
+      border-radius: 1rem;
+      opacity: 0.5;
+    }
+    .img {
+      background-image: url(https://enhome.vn/wp-content/uploads/2022/02/thiet-ke-phong-tro-20m2-1.jpg);
+      background-size: cover;
+      height: 15rem;
+      border: 3px solid rgb(51, 51, 51);
+      width: 15rem;
+      transform: translate(5rem, -5.5rem);
+      // border: 1px solid #E0702B;
+      border-radius: 1rem;
+    }
+    .img2 {
+      background-image: url(https://wallpapers.com/images/featured/apartment-bbiy2mat3yd31d3t.jpg);
+      background-size: cover;
+      height: 15rem;
+      border: 3px solid rgb(51, 51, 51);
+      width: 15rem;
+      transform: translate(-10rem, 11rem);
+      // border: 1px solid #E0702B;
+      border-radius: 1rem;
+    }
+    .img3 {
+      background-image: url(https://www.redfin.com/blog/wp-content/uploads/2022/07/Wallpaper-in-the-kitchen.jpg);
+      background-size: cover;
+      height: 15rem;
+      border: 3px solid rgb(51, 51, 51);
+      width: 15rem;
+      transform: translate(-5rem, -10rem);
+      // border: 1px solid #E0702B;
+      border-radius: 1rem;
     }
   }
+  .swrapper-body {
+    background-color: #818181;
+    .tabs-wrapper {
+      width: 80%;
+      background-color: #545454;
+      .block-tabs {
+        border-bottom: 1.3px solid rgb(255, 255, 255);
+        transform: translate(0rem, 2rem);
+        color: #dcdcdc;
+        .tabs {
+          border: 1px solid rgb(255, 255, 255);
+          padding: 0.2rem 1.2rem;
+          transform: translate(1rem, -0.2rem);
+        }
+        .active-tabs {
+          color: #e0702b;
+        }
+      }
+      .content-tabs {
+        width: 100%;
+        padding: 1.3rem 0.7rem;
+        box-shadow: rgb(0, 0, 0) 0px 0px 3px 0px,
+          rgb(102, 102, 102) 0px 0px 0px 0px;
+        .disable {
+          display: none;
+        }
+        .search-content {
+          input {
+            background-color: #dcdcdc;
+            display: block;
+            transform: translate(144%, 20%);
+            width: 40%;
+            border-radius: 0.2rem;
+          }
+          input:focus {
+            outline: none;
+          }
+          .searchOutlined {
+            
+            width: 3.6%;
+            height: 10%;
+            transform: translate(1450%, 56%);
+            border-radius: 0rem;
+            
+          }
+        }
+        .content-wrapper {
+          .thenhatro{
+            background-color: rgb(36, 36, 36);
+            border-radius: 0.2rem;
+            padding: 0.9rem 0.9rem;
+            border: 3px solid #ff9101;
+            grid-template-columns: auto auto;
+            margin-bottom: 3rem;
+            width: 97.5%;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+            .hinh{
+              background-size: cover;
+              width: 15rem;
+              border: 2px solid rgb(167, 139, 0);
+              height: 15rem;
+              border-radius: 0.4rem;
+            }
+            .danhgia{
+              transform: translate(17rem, 2rem);
+              width: 10rem;
+              
+            }
+            .mota{
+              font-size: 1.1rem;
+              color: #dcdcdc;
+              transform: translate(0rem, 1.5rem);
+              width: 40rem;
+              }
+            .tentro{
+                color: #eaae0b;
+              }
+            .khoangcach{
+              font-size: 1.1rem;
+                color: #dcdcdc;
+                transform: translate(0rem, 3.5rem);
+              }
+            .diachi{
+              font-size: 1.1rem;
+              color: #dcdcdc;
+                transform: translate(0rem, 0.5rem);
+              }
+            .xemthem{
+                border-radius: 0.4rem;  
+                background-color: #e0702b;
+                padding: 0.3rem 1.4rem;
+                transform: translate(30rem, 0rem);
+              }
+            }
+          }
+          
+
+          
+          .cuoicung {
+            //cái mau den cuoi cùng
+            background-color: rgb(0, 0, 0);
+            background-size: cover;
+            transform: translate(-10.9%, 8%);
+            width: 100%;
+            height: 15rem;
+          }
+          .vechungtoi {
+            width: 33rem;
+            text-decoration: underline;
+            font-size: 1rem;
+            color: rgb(225, 225, 225);
+            text-align: left; //căn lề
+            letter-spacing: 0px;
+            transform: translate(45rem, 3rem);
+          }
+          .fanpage {
+            width: 33rem;
+            text-decoration: underline;
+            font-size: 1rem;
+            color: rgb(225, 225, 225);
+            text-align: left; //căn lề
+            letter-spacing: 0px;
+            transform: translate(45rem, 4.5rem)
+          }
+          .diachi {
+            width: 30rem;
+            text-decoration: underline;
+            font-size: 1rem;
+            color: rgb(225, 225, 225);
+            text-align: left; //căn lề
+            letter-spacing: 0px;
+            transform: translate(2rem, 4rem)
+          }
+          .sdt {
+            width: 33rem;
+            font-size: 1rem;
+            color: rgb(225, 225, 225);
+            text-align: left; //căn lề
+            letter-spacing: 0px;
+            transform: translate(2rem, 7rem);
+          }
+          .gmail {
+            width: 33rem;
+            font-size: 1rem;
+            color: rgb(225, 225, 225);
+            text-align: left; //căn lề
+            letter-spacing: 0px;
+            transform: translate(2rem, 5rem);
+          }
+          .hinhlogo{
+            background-image: url("https://scontent.fhan2-3.fna.fbcdn.net/v/t39.30808-1/462494364_122097266150567799_5322384466882477043_n.jpg?stp=cp6_dst-jpg_s720x720&_nc_cat=108&ccb=1-7&_nc_sid=f4b9fd&_nc_eui2=AeETQ47MYry3C171yJn9WU1uaBzwzO3sZLBoHPDM7exksFkNPrcBhjPPqB8rIqxC_oTQZG-9EiYszoBiqgr6KCqF&_nc_ohc=TSNALvOd1mUQ7kNvgFGfCVb&_nc_zt=24&_nc_ht=scontent.fhan2-3.fna&_nc_gid=AHyfI_saKWlr6hBNhABQkMQ&oh=00_AYDDSrvs19qPInmfb9Od303_779mnlhqcfT0Zc06Hsb2Qw&oe=6724F9E0");
+            width: 3rem;
+            height: 3rem;
+            font-size: 1.4rem;
+            color: antiquewhite;
+            background-size: cover;
+            border-radius: 50%;
+            transform: translate(2rem, -4rem);
+          }
+        }
+      }
+    }
   
+  .orange {
+    color: #e02b2b;
+  }
+}

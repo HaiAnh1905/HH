@@ -58,7 +58,7 @@ export default function Coffee(data: IData) {
       <div className="content-text relative">
         <h1 className="locationName text-4xl font-semibold mb-4">{data.name}</h1>
         <div
-          className="locationDetail text-lg mb-3"
+          className="locationDetail relative text-lg mb-3"
           style={{
             WebkitLineClamp: 3,
             WebkitBoxOrient: "vertical",

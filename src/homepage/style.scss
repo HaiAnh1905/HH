@@ -1,4 +1,9 @@
 .homepage {
+  .prevent-select {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+  }
   .slider {
     .slider-item {
       .op {
@@ -35,6 +40,12 @@
   .choose {
     width: 100%;
     padding: 0.5rem;
+  }
+  .introduce {
+    .introduce-detail {
+      width: 75%;
+      text-align: center;
+    }
     .choose-item {
       .item {
         background-size: cover;

@@ -1,5 +1,4 @@
 // import React from "react";
-import { Rate } from "antd";
 import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import PopupDetail from "../../popup";
@@ -9,29 +8,25 @@ import "swiper/css/navigation";
 import "swiper/css/thumbs";
 import "swiper/css/free-mode";
 
-import {
-  Autoplay,
-  Navigation,
-  Thumbs,
-  FreeMode,
-} from "swiper/modules";
+import { Autoplay, Navigation, Thumbs, FreeMode } from "swiper/modules";
 
 interface IData {
+  id: string;
   name: String;
   type: String;
   discription: String;
   img: String[];
-  rating: number;
-  paragraph: string;
-  howtoeat: String;
   pricing: String;
   address: String;
-  link: string;
-  characterist: String[];
   openclosed: String;
+  map: string;
+  sdt: String;
+  fanpage: string;
+  rating: number;
 }
 
 export default function FoodCard(data: IData) {
+  //popup function
   const [popup, setPopup] = useState<boolean>(false);
   const handlePopup = () => {
     setPopup(!popup);
@@ -47,46 +42,36 @@ export default function FoodCard(data: IData) {
 
   //thumbs swiper
   const [thumbsSwiper, setThumbsSwiper] = useState<any>(null);
+  console.log(thumbsSwiper);
 
   return (
     <div className="foodcard relative w-fit">
-      <div
-        className="img mb-3"
-        style={{ backgroundImage: `url(${data.img[1]})` }}
-      ></div>
-      <h1 className="text-3xl font-semibold px-2 mb-3">{data.name}</h1>
-      <div
-        className="discription text-xl px-2 mb-2"
-        style={{
-          WebkitLineClamp: 3,
-          WebkitBoxOrient: "vertical",
-          overflow: "hidden",
-          display: "-webkit-box",
-        }}
-      >
-        {data.discription}
-      </div>
-      <div className="pricing px-2 text-xl mb-3">Giá tiền: {data.pricing}</div>
-      <div className="address text-xl pl-2 mb-4">Địa chỉ: {data.address}</div>
-      <div className="bottom flex items-center gap-5">
+      <div className="outside">
         <div
-          className="readmore ml-2 text-xl"
-          onClick={() => {
-            handlePopup();
-          }}
-        >
-          Xem thêm
+          className="img mb-3"
+          style={{ backgroundImage: `url(${data.img[0]})` }}
+        ></div>
+        <h1 className="text-3xl font-semibold px-2 mb-3">{data.name}</h1>
+        <div className="pricing px-2 text-xl mb-3">
+          💸<b>Giá trung bình: </b> {data.pricing}
         </div>
-        <div className="rating px-2 mb-3 ">
-          <Rate
-            style={{ color: "#e0702b" }}
-            allowHalf
-            disabled
-            defaultValue={data.rating}
-          />
+        <div className="address text-xl pl-2 mb-4">
+          🏡<b>Địa chỉ: </b>
+          {data.address}
+        </div>
+        <div className="bottom flex items-center gap-5 cursor-pointer">
+          <div
+            className="readmore ml-2 text-xl"
+            onClick={() => {
+              handlePopup();
+            }}
+          >
+            Xem thêm
+          </div>
         </div>
       </div>
       <PopupDetail
+        key={data.id}
         popup={popup}
         handlePopup={() => {
           handlePopup();
@@ -101,7 +86,7 @@ export default function FoodCard(data: IData) {
               autoplay={{ delay: 2500, disableOnInteraction: false }}
               navigation={true}
               pagination={{ clickable: false }}
-              thumbs={{ swiper: thumbsSwiper }}
+              thumbs={{ swiper: !thumbsSwiper ? thumbsSwiper : 0 }}
               modules={[Autoplay, Thumbs, Navigation, FreeMode]}
               className="mySwiper mb-6 z-20 relative"
             >
@@ -120,14 +105,13 @@ export default function FoodCard(data: IData) {
               })}
             </Swiper>
             <Swiper
-              // loop={true}
               onSwiper={setThumbsSwiper}
               spaceBetween={10}
-              slidesPerView={4}
+              slidesPerView={data.img.length < 4 ? data.img.length : 4}
               freeMode={true}
               watchSlidesProgress={true}
               modules={[FreeMode, Thumbs, Navigation]}
-              className="mySwiper2 mb-6"
+              className="mySwiper2 mb-6 m-auto"
             >
               {imgArr.map((e) => {
                 return (
@@ -151,36 +135,23 @@ export default function FoodCard(data: IData) {
             </div>
             <br />
             <div className="pricingz text-xl">
-              Giá mỗi món ăn: <span className="orange">{data.pricing}</span> mỗi
-              món
+              💸<b>Giá trung bình: </b> {data.pricing}
             </div>
-            <br />
             <div className="flex items-center gap-20">
-            <div className="rating flex items-center justify-center">
-              <Rate allowHalf disabled defaultValue={data.rating}></Rate>
+              <div className="text-xl address">
+                🏡<b>Địa chỉ: </b> <a target="_blank" className="underline" href={data.map}>{data.address}</a>
+              </div>
             </div>
-            <div className="open-closed text-xl">Mở cửa: {data.openclosed}</div>
+            <div className="flex items-center gap-20">
+              <div className="text-xl address">
+                ☎️<b>SĐT: </b> {data.sdt}
+              </div>
             </div>
-            <br />
-            <div className="link text-xl flex gap-1 w-fit justify-self-end">
-              <a
-                className="alink block text-3xl"
-                target="_blank"
-                href={data.link}
-              >
-                Đặt ngay?
-              </a>
+            <div className="flex items-center gap-20">
+              <div className="text-xl address underline oorange">
+                📫<b>Fanpage của quán: </b> <a href={data.fanpage}>{data.name}</a>
+              </div>
             </div>
-            {/* <div className="map mt-8">
-            <iframe
-              src={`${data.map}`}
-              width="100%"
-              height="450"
-              style={{ border: "0" }}
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
-          </div> */}
           </div>
         </div>
       </PopupDetail>
