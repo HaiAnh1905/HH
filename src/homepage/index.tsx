@@ -99,7 +99,9 @@ export default function HomePage() {
         <Slider sliderUrl={sliderImg[sliderIndex]} />
       </div>
       <div className="introduce mt-6 relative w-full mb-5">
-        <h1 className="text-3xl font-semibold oorange w-fit m-auto mb-2">Giới thiệu về Cẩm nang Hòa Lạc</h1>
+        <h1 className="text-3xl font-semibold oorange w-fit m-auto mb-2">
+          Giới thiệu về Cẩm nang Hòa Lạc
+        </h1>
         <div className="introduce-detail m-auto text-lg font-semibold mb-5">
           Cẩm nang Hòa Lạc là trang web cung cấp thông tin thiết yếu cho tân
           sinh viên và những người mới đến định cư tại Hòa Lạc. Trang web giới

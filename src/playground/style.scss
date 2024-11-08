@@ -61,28 +61,28 @@
           }
         }
         .content-wrapper {
-          .content-item{
+          .content-item {
             background-color: rgb(244, 231, 231);
             border-radius: 0.2rem;
             padding: 0.9rem 0.9rem;
             width: 97.5%;
             box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
             grid-template-columns: 20% 70%;
-            .img{
+            .img {
               background-size: cover;
               width: 15rem;
               height: 15rem;
               border-radius: 0.4rem;
             }
-            .content-text{
+            .content-text {
               box-sizing: border-box;
-              .locationName{
+              .locationName {
                 width: 100%;
               }
-              .locationDetail{
+              .locationDetail {
                 width: 100%;
               }
-              .more{
+              .more {
                 border-radius: 0.4rem;
                 background-color: #e0702b;
                 padding: 0.3rem 1.4rem;

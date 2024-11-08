@@ -20,7 +20,9 @@
       width: 100%;
       //   grid-template-columns: repeat(auto-fill, 17rem);
       .lists-item {
-        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+          rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+          rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
         font-size: 1.25rem /* 20px */;
         line-height: 1.75rem /* 28px */;
         font-weight: 600;
@@ -62,18 +64,18 @@
       }
     }
   }
-  .schoolMap{
-    .map-details{
+  .schoolMap {
+    .map-details {
       width: fit-content;
     }
-    .FPTMAP{
+    .FPTMAP {
       background-image: url(https://scontent.fhan2-5.fna.fbcdn.net/v/t39.30808-6/279577345_5047143368705802_2124042979908370119_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFybqiIBcE-faD56kLs2ybtcfCLqNB-ihBx8Iuo0H6KEAQPI7llq_rFSy9YkayJh_je1r0b81xg16Rv_-__9bH5&_nc_ohc=izL7MhxzXpwQ7kNvgFCIgva&_nc_zt=23&_nc_ht=scontent.fhan2-5.fna&_nc_gid=AXtz5DMmfeSsQx0PdSVQ7Iq&oh=00_AYA4SWhXNGVZBFctsakJsNKYLFJxeNqPUfCipi9ZaelJTQ&oe=67323182);
       background-size: cover;
       background-repeat: no-repeat;
       width: 60%;
       height: 46rem;
     }
-    .note{
+    .note {
       width: 32%;
       color: rgb(95, 94, 94);
     }

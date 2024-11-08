@@ -94,7 +94,10 @@ export default function LoginPage() {
             Đăng ký ngay
           </NavLink>
         </div>
-        <NavLink to="/reset" className="toForget ora-text w-fit m-auto block mb-4">
+        <NavLink
+          to="/reset"
+          className="toForget ora-text w-fit m-auto block mb-4"
+        >
           {" "}
           Quên mật khẩu?
         </NavLink>

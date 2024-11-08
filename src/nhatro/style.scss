@@ -11,8 +11,8 @@
         border-radius: 0.5rem;
         transform: translate(0rem, -1rem);
       }
-      h1{
-          color: #dcdcdc;
+      h1 {
+        color: #dcdcdc;
       }
     }
     .stitle {
@@ -92,16 +92,14 @@
             outline: none;
           }
           .searchOutlined {
-            
             width: 3.6%;
             height: 10%;
             transform: translate(1450%, 56%);
             border-radius: 0rem;
-            
           }
         }
         .content-wrapper {
-          .thenhatro{
+          .thenhatro {
             background-color: rgb(36, 36, 36);
             border-radius: 0.2rem;
             padding: 0.9rem 0.9rem;
@@ -110,113 +108,110 @@
             margin-bottom: 3rem;
             width: 97.5%;
             box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-            .hinh{
+            .hinh {
               background-size: cover;
               width: 15rem;
               border: 2px solid rgb(167, 139, 0);
               height: 15rem;
               border-radius: 0.4rem;
             }
-            .danhgia{
+            .danhgia {
               transform: translate(17rem, 2rem);
               width: 10rem;
-              
             }
-            .mota{
+            .mota {
               font-size: 1.1rem;
               color: #dcdcdc;
               transform: translate(0rem, 1.5rem);
               width: 40rem;
-              }
-            .tentro{
-                color: #eaae0b;
-              }
-            .khoangcach{
-              font-size: 1.1rem;
-                color: #dcdcdc;
-                transform: translate(0rem, 3.5rem);
-              }
-            .diachi{
+            }
+            .tentro {
+              color: #eaae0b;
+            }
+            .khoangcach {
               font-size: 1.1rem;
               color: #dcdcdc;
-                transform: translate(0rem, 0.5rem);
-              }
-            .xemthem{
-                border-radius: 0.4rem;  
-                background-color: #e0702b;
-                padding: 0.3rem 1.4rem;
-                transform: translate(30rem, 0rem);
-              }
+              transform: translate(0rem, 3.5rem);
+            }
+            .diachi {
+              font-size: 1.1rem;
+              color: #dcdcdc;
+              transform: translate(0rem, 0.5rem);
+            }
+            .xemthem {
+              border-radius: 0.4rem;
+              background-color: #e0702b;
+              padding: 0.3rem 1.4rem;
+              transform: translate(30rem, 0rem);
             }
           }
-          
+        }
 
-          
-          .cuoicung {
-            //cái mau den cuoi cùng
-            background-color: rgb(0, 0, 0);
-            background-size: cover;
-            transform: translate(-10.9%, 8%);
-            width: 100%;
-            height: 15rem;
-          }
-          .vechungtoi {
-            width: 33rem;
-            text-decoration: underline;
-            font-size: 1rem;
-            color: rgb(225, 225, 225);
-            text-align: left; //căn lề
-            letter-spacing: 0px;
-            transform: translate(45rem, 3rem);
-          }
-          .fanpage {
-            width: 33rem;
-            text-decoration: underline;
-            font-size: 1rem;
-            color: rgb(225, 225, 225);
-            text-align: left; //căn lề
-            letter-spacing: 0px;
-            transform: translate(45rem, 4.5rem)
-          }
-          .diachi {
-            width: 30rem;
-            text-decoration: underline;
-            font-size: 1rem;
-            color: rgb(225, 225, 225);
-            text-align: left; //căn lề
-            letter-spacing: 0px;
-            transform: translate(2rem, 4rem)
-          }
-          .sdt {
-            width: 33rem;
-            font-size: 1rem;
-            color: rgb(225, 225, 225);
-            text-align: left; //căn lề
-            letter-spacing: 0px;
-            transform: translate(2rem, 7rem);
-          }
-          .gmail {
-            width: 33rem;
-            font-size: 1rem;
-            color: rgb(225, 225, 225);
-            text-align: left; //căn lề
-            letter-spacing: 0px;
-            transform: translate(2rem, 5rem);
-          }
-          .hinhlogo{
-            background-image: url("https://scontent.fhan2-3.fna.fbcdn.net/v/t39.30808-1/462494364_122097266150567799_5322384466882477043_n.jpg?stp=cp6_dst-jpg_s720x720&_nc_cat=108&ccb=1-7&_nc_sid=f4b9fd&_nc_eui2=AeETQ47MYry3C171yJn9WU1uaBzwzO3sZLBoHPDM7exksFkNPrcBhjPPqB8rIqxC_oTQZG-9EiYszoBiqgr6KCqF&_nc_ohc=TSNALvOd1mUQ7kNvgFGfCVb&_nc_zt=24&_nc_ht=scontent.fhan2-3.fna&_nc_gid=AHyfI_saKWlr6hBNhABQkMQ&oh=00_AYDDSrvs19qPInmfb9Od303_779mnlhqcfT0Zc06Hsb2Qw&oe=6724F9E0");
-            width: 3rem;
-            height: 3rem;
-            font-size: 1.4rem;
-            color: antiquewhite;
-            background-size: cover;
-            border-radius: 50%;
-            transform: translate(2rem, -4rem);
-          }
+        .cuoicung {
+          //cái mau den cuoi cùng
+          background-color: rgb(0, 0, 0);
+          background-size: cover;
+          transform: translate(-10.9%, 8%);
+          width: 100%;
+          height: 15rem;
+        }
+        .vechungtoi {
+          width: 33rem;
+          text-decoration: underline;
+          font-size: 1rem;
+          color: rgb(225, 225, 225);
+          text-align: left; //căn lề
+          letter-spacing: 0px;
+          transform: translate(45rem, 3rem);
+        }
+        .fanpage {
+          width: 33rem;
+          text-decoration: underline;
+          font-size: 1rem;
+          color: rgb(225, 225, 225);
+          text-align: left; //căn lề
+          letter-spacing: 0px;
+          transform: translate(45rem, 4.5rem);
+        }
+        .diachi {
+          width: 30rem;
+          text-decoration: underline;
+          font-size: 1rem;
+          color: rgb(225, 225, 225);
+          text-align: left; //căn lề
+          letter-spacing: 0px;
+          transform: translate(2rem, 4rem);
+        }
+        .sdt {
+          width: 33rem;
+          font-size: 1rem;
+          color: rgb(225, 225, 225);
+          text-align: left; //căn lề
+          letter-spacing: 0px;
+          transform: translate(2rem, 7rem);
+        }
+        .gmail {
+          width: 33rem;
+          font-size: 1rem;
+          color: rgb(225, 225, 225);
+          text-align: left; //căn lề
+          letter-spacing: 0px;
+          transform: translate(2rem, 5rem);
+        }
+        .hinhlogo {
+          background-image: url("https://scontent.fhan2-3.fna.fbcdn.net/v/t39.30808-1/462494364_122097266150567799_5322384466882477043_n.jpg?stp=cp6_dst-jpg_s720x720&_nc_cat=108&ccb=1-7&_nc_sid=f4b9fd&_nc_eui2=AeETQ47MYry3C171yJn9WU1uaBzwzO3sZLBoHPDM7exksFkNPrcBhjPPqB8rIqxC_oTQZG-9EiYszoBiqgr6KCqF&_nc_ohc=TSNALvOd1mUQ7kNvgFGfCVb&_nc_zt=24&_nc_ht=scontent.fhan2-3.fna&_nc_gid=AHyfI_saKWlr6hBNhABQkMQ&oh=00_AYDDSrvs19qPInmfb9Od303_779mnlhqcfT0Zc06Hsb2Qw&oe=6724F9E0");
+          width: 3rem;
+          height: 3rem;
+          font-size: 1.4rem;
+          color: antiquewhite;
+          background-size: cover;
+          border-radius: 50%;
+          transform: translate(2rem, -4rem);
         }
       }
     }
-  
+  }
+
   .orange {
     color: #e02b2b;
   }

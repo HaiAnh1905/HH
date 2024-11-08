@@ -139,7 +139,10 @@ export default function FoodCard(data: IData) {
             </div>
             <div className="flex items-center gap-20">
               <div className="text-xl address">
-                🏡<b>Địa chỉ: </b> <a target="_blank" className="underline" href={data.map}>{data.address}</a>
+                🏡<b>Địa chỉ: </b>{" "}
+                <a target="_blank" className="underline" href={data.map}>
+                  {data.address}
+                </a>
               </div>
             </div>
             <div className="flex items-center gap-20">
@@ -149,7 +152,8 @@ export default function FoodCard(data: IData) {
             </div>
             <div className="flex items-center gap-20">
               <div className="text-xl address underline oorange">
-                📫<b>Fanpage của quán: </b> <a href={data.fanpage}>{data.name}</a>
+                📫<b>Fanpage của quán: </b>{" "}
+                <a href={data.fanpage}>{data.name}</a>
               </div>
             </div>
           </div>

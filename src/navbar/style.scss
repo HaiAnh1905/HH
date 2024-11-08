@@ -1,33 +1,33 @@
 .baloo-paaji-2-bold {
-    font-family: "Baloo Paaji 2", system-ui;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
+  font-family: "Baloo Paaji 2", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }
 .baloo-paaji-2-semibold {
-    font-family: "Baloo Paaji 2", system-ui;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
+  font-family: "Baloo Paaji 2", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
 }
-.navbar{
-    background-color: var(--bg-current);
-    grid-template-columns: 27% auto;
-    .logo-branch{
-        width: 100%;
-        .logo{
-            width: 4.2rem;
-            height: 2.5rem;
-            background-size: cover;
-        }
-        .branch{
-            color: var(--cl-text);
-        }
-        .small-logo{
-            width: 2rem;
-            height: 2rem;
-            background-size: cover;
-            transform: rotateY(3.142rad);
-        }
+.navbar {
+  background-color: var(--bg-current);
+  grid-template-columns: 27% auto;
+  .logo-branch {
+    width: 100%;
+    .logo {
+      width: 4.2rem;
+      height: 2.5rem;
+      background-size: cover;
     }
+    .branch {
+      color: var(--cl-text);
+    }
+    .small-logo {
+      width: 2rem;
+      height: 2rem;
+      background-size: cover;
+      transform: rotateY(3.142rad);
+    }
+  }
 }
